@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="../styles/style.css">
+    <!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous"/>  -->
+    <link href="https://fonts.googleapis.com/css?family=Lobster" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <title>Login</title>
+</head>
+<body>
+    <div class="navbar">           
+        <ul>
+            <img src="../images/logo.png" class="logo1">
+            <div class="search-box">
+                <input type="text" class="form-control">
+                <button type="submit" placeholder="Search.." class="input-group-text"><i class="fa fa-search"></i></button>
+            </div>
+            <li><a href="../index.html">Home</li></a>
+            <li><a href="about.html">About us</li></a>
+            <div class="dropdown">
+                <li class="dropbtn" onclick="myFunction()">Signin
+                  <i class="fa fa-caret-down"></i>
+                <div class="dropdown-content">
+                    <a href="signin.html"> Signin</a>
+                    Or
+                    <a href="register.html">Register</a>  
+                </div>
+            </div>
+            </li>
+            <li><a href="cart.html">Cart</a></li>
+        </ul>
+     </div>
+</div>
+
+    
+    <div class="login">
+        <form action="#" id="loginform">
+            <div class="imgcontainer">
+                <img src="../images/logo.png" alt="logo" class="logo">
+            </div>
+    
+            <div class="container">
+                <label for="email"><b>Email</b></label> <br>
+                <input type="text" placeholder="Enter Email" name="email" required><br>
+
+                <label for="psw"><b>Password</b></label><br><br>
+                <input type="password" placeholder="Enter Password" name="psw" required><br><br>
+                <button type="submit" class="btn">Login</button>
+                <label>
+                    <input type="checkbox" name="remember"> Remember me
+                </label><br><br>
+                <a href="register.html" class="registerbtn">Register</a>
+                <span class="psw"><a href="#">Forgot password?</a></span>
+    
+            </div>
+    
+    
+        </form>
+
+    </div>
+</body>
+</html>
