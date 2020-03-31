@@ -31,14 +31,14 @@
                     </div>
                 </div>
                 </li>
-                <li><a href="cart.html">Cart</a></li>
+                <li><a href="cart.html"><i class="fa fa-shopping-basket"></i>Cart<span>0</span></a></li>
             </ul>
          </div>
     </div>
 
     <div>
-        <form>
-            <h3>Pirema Shopping Hearts</h3>
+        <form onsubmit="return validate()" action="signin.html">
+            <h3>Paremi Shopping Hearts</h3>
             <p>Please fill in this form to create an account.</p>
             <hr>
             <label for="fname">First Name</label>
@@ -59,18 +59,22 @@
                     <option value="usa">Somalia</option>
                 </select> 
             <label for="email"><b>Email</b></label>
-    <input type="text" placeholder="Enter Email" name="email" required>
+    <input type="text" placeholder="Enter Email" name="email" id="mail">
 
     <label for="psw"><b>Password</b></label>
-    <input type="password" placeholder="Enter Password" name="psw" required>
+    <input type="password" placeholder="Enter Password" name="pass" id="psw">
 
     <label for="psw-repeat"><b>Confirm Password</b></label>
-    <input type="password" placeholder="Confirm Password" name="psw-repeat" required>
+    <input type="password" placeholder="Confirm Password" name="psw-repeat" id="psw1">
     <button type="button" class="cancelbtn"><a href="../index.html">Cancel</a></button>
     <button type="submit" class="registerbtn">Register</button>
      
 
         </form>
     </div>
+
+    <script src="../script/app.js"></script>   
+    <!-- //link to the source file of javascript function -->
+
 </body>
 </html>
