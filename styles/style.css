@@ -258,3 +258,51 @@ hr {
   .fa-search{
     color: floralwhite;
   }
+
+  #file {
+    padding: 10px;
+    color: floralwhite;
+    background-color: indigo;
+    border: 1px solid indigo;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  #file:hover{
+    background-color: green;
+    color: indigo;
+  }
+  #custom-text {
+    margin-left: 10px;
+    font-family: 'Lobster', cursive;
+    color: green;
+  }
+  
+  .postbtn {
+      background-color: green;
+      border: none;
+      color: floralwhite;
+      padding: 15px 32px;
+      text-align: center;
+      text-decoration: none;
+      display: inline-block;
+      font-size: 16px;
+      margin: 10px 30px;
+      cursor: pointer;
+      border-radius: 12px;
+      font-family: 'Lobster';
+      font-size: 19px;
+      
+    }
+    .postbtn:hover {
+      opacity: 1;
+      background-color: indigo;
+      color: floralwhite;
+      
+    }
+    .postbtn a{
+      color: floralwhite;
+     
+      text-decoration: none;
+     
+     
+    }
