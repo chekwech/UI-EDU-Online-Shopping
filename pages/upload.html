@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="../styles/style.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous"/> 
+    <link href="https://fonts.googleapis.com/css?family=Lobster" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>Checkout</title>
+</head>
+<body>
+    <div class="nav">
+        <div class="navbar">           
+            <ul>
+                <img src="../images/logo.png" class="logo1">
+                <div class="search-box">
+                    <input type="text" class="form-control">
+                    <button type="submit" placeholder="Search.." class="input-group-text"><i class="fa fa-search"></i></button>
+                </div>
+                <li><a href="../index.html">Home</li></a>
+                <li><a href="about.html">About us</li></a>
+                <div class="dropdown">
+                    <li class="dropbtn" onclick="myFunction()">Signin
+                      <i class="fa fa-caret-down"></i>
+                    <div class="dropdown-content">
+                        <a href="signin.html"> Signin</a>
+                        Or
+                        <a href="register.html">Register</a>  
+                    </div>
+                </div>
+                </li>
+                <li><a href="cart.html"><i class="fa fa-shopping-basket"></i>Cart <span>0</span></a></li>
+            </ul>
+         </div>
+    </div>
+    <form action="../index.html">
+        <div>
+            <input type="file" id="file" accept="image/*" name="image" onchange="loadFile(event)" style="display: none;" >
+            <label for="file" style="cursor: pointer;">Upload Image</label>
+            <img id="output" width="200"><br><br>
+
+        </div>
+
+        <div>
+            <label for="category">CATEGORY</label> 
+            <select id="country" name="country">
+                <option value="usa">ELECTRONICS</option>
+                <option value="kitchen">KITCHEN</option>
+                <option value="fashion">FASHION</option>
+            </select>
+            <br><br>     
+        </div>
+        <div>
+            <label for="item-name">NAME OF ITEM</label>
+            <input type="text" id="item-name">
+            <br><br>
+        </div>
+        <div>
+            <label for="item-price">PRICE</label>
+            <input type="text" id="item-price" placeholder="Enter Price in Dollars"> 
+            <br><br>
+        </div>
+
+        <div>
+            <button type="submit" class="postbtn">POST ITEM</button>
+        </div>
+    </form>
+    <!-- <button type="button" id="custom-button">CHOOSE AN IMAGE</button>
+    <span id="custom-text">No file choosen, yet</span> -->
+    
+
+    <script src="../script/app.js"></script>   
+            <!-- //link to the source file of javascript function -->
+   
+</body>
+</html>
