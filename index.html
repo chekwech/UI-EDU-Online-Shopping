@@ -7,37 +7,55 @@
     <meta name="description" content="This is the description">
     <link rel="stylesheet" href="styles/style.css" />
     <script src="script/app.js" async></script>
+    <link href="https://fonts.googleapis.com/css?family=Lobster" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <a href="#" id="back-to-top" class="back-to-top" style="display: inline;">Top</a>
 </head>
 
-<body>
+<body id="body2">
     <a href="#" id="scroll" style="display: none;"><span></span></a>
     <div id="container">
         <header class="main-header">
-            <nav class="main-nav nav">
-                <ul>
-                    <li><a href="index.html">HOME</a></li>
-                    <li>
-                        <form action="" class="select">
-
-                            <select name="forma" onchange="location = this.options[this.selectedIndex].value;" style="width:200px; 
-                        height:40px; margin-left:-40px; background-color: rgb(209, 72, 159);border-color: rgb(161,156,156);
-                        font-size: 20px;font-style:inherit;">
-                        <!--style= width:120px;border-radius:10px;height:35px;>-->
-                        <option hidden="">Categories</option>
-                        <a href="#electronics"><option value="#electronics">Electronics</option></a>
-                        <a href="#fashion"><option value="#fashion">Fashion</option></a>
-                        <a href="#foodstuffs"><option value="#foodstuffs">Food Stuffs</option></a>
+            <div class="nav">
+                <div class="navbar">           
+                    <ul>
+                        <img src="images/logo.png" class="logo1">
                         
-                    </select>
-                        </form>
-                        <!--<a href="#">STORE</a>-->
+                        <li><a href="index.html"><i class="fa fa-fw fa-home"></i>Home</li></a>
+                        <div class="dropdown">
+                            <li class="dropbtn" onclick="myFunction()">Categories 
+                            <i class="fa fa-caret-down"></i>
+                                <div class="dropdown-content">
+                                    <a href="#electronics">Electronics</a>
+                                    <a href="#fashion">Fashion</a>
+                                    <a href="#foodstuffs">Food Stuffs</a>
+                                </div>
+                        </div>
                     </li>
-                    <li><a href="about.html">ABOUT</a></li>
-                    <li><a href="#carts">CART</a></li>
-                </ul>
-            </nav>
-            <h1 class="band-name band-name-large">The Pirema Shoppers</h1>
+                        <li><a href="pages/about.html">About us</li></a>
+                        <div class="dropdown">
+                            <li class="dropbtn" onclick="myFunction()"><i class="fa fa-fw fa-user"></i>Signin
+                              <i class="fa fa-caret-down"></i>
+                            <div class="dropdown-content">
+                                <a href="pages/signin.html"></i> Signin</a>
+                                Or
+                                <a href="pages/register.html">Register</a>  
+                            </div>
+                        </div>
+                        </li>
+                        <li><a href="#carts"><i class="fa fa-shopping-basket"></i>Cart </a></li>
+                        <li><a href="pages/upload.html">Sell product</a></li>
+                        <li><a href="pages/faqspg.html">FAQs</a></li>
+                    </ul>
+                    
+                    <div class="search-box">
+                        <input type="text" placeholder="Search...." class="form-control">
+                        <button type="submit" class="input-group-text"><i class="fa fa-search"></i></button>
+                    </div>
+                    <div><h1 class="band-name band-name-large">The Pirema Shoppers</h1></div>
+                 </div>
+            </div>
+            
         </header>
         <section class="container content-section">
             <h2 class="section-header"><a name="electronics">ELECTRONICS</a></h2>

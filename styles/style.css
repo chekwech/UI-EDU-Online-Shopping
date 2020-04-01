@@ -2,88 +2,65 @@
 @import url('https://fonts.googleapis.com/css?family=Raleway:300,400,700');
 @import url("https://fonts.googleapis.com/css?family=Metal+Mania");
 @font-face {
-    font-family: "Booter - Zero Zero";
+    font-family: "Lobster","Booter - Zero Zero";
     src: url("Fonts/Booter - Zero Zero.woff") format("woff"), url("Fonts/Booter - Zero Zero.woff2") format("woff2");
     font-weight: normal;
     font-style: normal;
+    
 }
 
 * {
     box-sizing: border-box;
-    font-family: Raleway;
-    color: #777;
+    font-family: "Lobster", Raleway;
 }
 
 html,
-body {
-    margin: 0;
+#body2 {
+    margin-top: 40px;
     padding: 0;
     min-height: 100%;
 }
 
-.nav ul {
-    margin: 0;
-}
-
-.nav li {
-    display: inline;
-}
-
-.nav a {
-    display: inline-block;
-    padding: .5em;
-    color: white;
-    text-decoration: none;
-}
-
-.main-nav {
-    text-align: center;
-    font-size: 1.1em;
-    font-weight: lighter;
-    border-bottom: 1px solid rgba(255, 255, 255, .3)
-}
-
-.main-nav li {
-    padding: 0 5%;
-}
-
-.nav a:hover {
-    background-color: rgba(255, 255, 255, .3)
-}
-
-.main-header {
-    background-color: rgba(0, 0, 0, .6);
-    background-image: url("night.jpg");
-    background-blend-mode: multiply;
-    background-size: cover;
-    padding-bottom: 30px;
+#body2{
+    background-color: #DA70D6;
+    background-image: linear-gradient(to bottom, #FFFFFF, #DA70D6);
+    background-repeat: no-repeat;
 }
 
 .band-name {
     text-align: center;
-    margin: 0;
-    font-size: 4em;
-    font-family: "Booter - Zero Zero";
+    margin: 30px;
+    font-size: 3em;
+    font-family: "Lobster", Raleway;
     font-weight: normal;
     color: white;
-}
+    display: inline-flexbox;
+    margin-top: 0px;
+    float: right;
+    display: inline-flex;
+    width: 40%;
 
-.band-name-large {
-    font-size: 8em;
+}
+h1 {
+    font-size: 3em;
 }
 
 .content-section {
     margin: 1em;
+    position: center;
+    right: 0;
+    margin-top: 100px;
 }
 
 .container {
+    
     max-width: 900px;
-    margin: 0 auto;
+    margin: 100px;
     padding: 0 1.5em;
 }
 
 .section-header {
-    font-family: "Metal Mania";
+    font-family: "Lobster", Raleway, "Metal Mania";
     font-weight: normal;
     color: #333;
     text-align: center;
@@ -364,11 +341,6 @@ body {
     /*background-image: url(blue.png);*/
 }
 
-body {
-    background-color: #DA70D6;
-    background-image: linear-gradient(to bottom, #FFFFFF, #DA70D6);
-    background-repeat: no-repeat;
-}
 
 .back-to-top {
     background-color: #000000;
@@ -413,23 +385,6 @@ a.back-to-top {
     display: flex;
     flex-direction: column;
 }
-logo3{
-    flex-direction: row;
-}
-#navbar3{
-    display: flex;
-    padding-bottom: 30px;
-    padding-left: 10px;
-    flex-wrap: wrap;
-    justify-content: space-evenly;
-    color:whitesmoke;
-}
-   
-
-#search bar{
-    padding-top: 10px;
-    
-}
 
 #footer3{
     display: flex;
@@ -437,47 +392,49 @@ logo3{
     align-items:center;
 } 
 #body3{
-    font-weight: 100;
-    font-size:16px;
-    background-color:#609BC0;
-    color: whitesmoke;
+    
+    font-family: Raleway;
+    height: 100%;
+    font-size:25px;
+    background-color:indigo;
+    color: floralwhite;
 } 
 p {
-    font-family: serif;
-    font-size: 18px;
+    font-family: Raleway;
+    font-size:25px;
+}
 
 
 /*Mirriam*/
-/*body {
+#body1 {
     height: 100%;
-    font-family: 'Lobster', cursive;
+    font-family: 'Lobster';
+    font-size:25px;
     background-color: indigo;
     color: indigo;
   }
- form {
-   
+
+    form {
+    font-size:20px;
     border: 3px solid indigo;
     margin: 0 auto; 
     width:400px;
     background-color: floralwhite;
     padding: 20px;
-    font-family: 'Lobster', cursive;
-    font-size: 18px;
+    font-family: 'Lobster';
   }
   
-  * {
-    box-sizing: border-box;
-  }  
+   
   /* Add styles to the form container */
-  /* .container {
+   .container2 {
     position: center;
     right: 0;
-    margin: 40px;
+    margin: 60px;
     max-width: 300px;
     padding: 16px;
     background-color: floralwhite;
     border-radius: 5px;
-  } */
+  }  
   
   /* Full-width input fields */
   input[type=text], input[type=password], select{
@@ -527,7 +484,7 @@ p {
     margin: 4px 2px;
     cursor: pointer;
     border-radius: 12px;
-    font-family: 'Lobster', cursive;
+    font-family: 'Lobster';
     font-size: 19px;
     
   }
@@ -546,8 +503,8 @@ p {
     border: 3px solid indigo;
     float: center;
     height: 100px;
-    margin-top: 80px;
-    margin-bottom: -40px;
+    margin-top: 90px;
+    margin-bottom: -70px;
 
   }
   h3{
@@ -588,7 +545,7 @@ hr {
     margin: 10px 30px;
     cursor: pointer;
     border-radius: 12px;
-    font-family: 'Lobster', cursive;
+    font-family: 'Lobster';
     font-size: 19px;
     
   }
@@ -614,8 +571,7 @@ hr {
     position: fixed;
     top: 0;   
     width: 100%; 
-    
-    
+
   }
   
   .navbar li span{
@@ -627,10 +583,11 @@ hr {
   display: inline;
   list-style: none;  
   padding: 20px;
-  font-family: 'Lobster', cursive;
+  font-family: 'Lobster';
   text-decoration: none;
   overflow: hidden 
   }
+
   li {
     float: left;
   }
@@ -643,6 +600,7 @@ hr {
   text-decoration: none;
   display: inline;
   }
+
   li a:hover, .dropdown:hover .dropbtn {
     background-color: floralwhite;
     color: indigo;
@@ -675,6 +633,7 @@ hr {
   .dropdown:hover .dropdown-content {
     display: block;
   }
+
   img.logo1{
     float: left;
     height: 100px;
@@ -682,6 +641,7 @@ hr {
     border-radius: 50%;
     border: 3px solid indigo;
   }
+
   .form-control{
     margin-top: 9px;
     margin: 30px;
@@ -689,24 +649,28 @@ hr {
     border-radius: 20px !important;
     box-shadow: none !important;
 
-    
-
   }
+
   .input-group-text{
     background: indigo;
     border: 1px solid floralwhite!important;
     border-radius: 20px !important;
     box-shadow: none !important;
     cursor: pointer;
+
   }
+
   .search-box{
-    margin-top: 25px;
+    margin-top: 0px;
     float: left;
     display: inline-flex;
     width: 40%;
   }
   .fa-search{
     color: floralwhite;
+  }
+  .fa-shopping-basket{
+    margin-right: 5px;
   }
 
   #file {
@@ -716,15 +680,20 @@ hr {
     border: 1px solid indigo;
     border-radius: 5px;
     cursor: pointer;
+
   }
+
   #file:hover{
     background-color: green;
     color: indigo;
+
   }
+
   #custom-text {
     margin-left: 10px;
-    font-family: 'Lobster', cursive;
+    font-family: 'Lobster';
     color: green;
+
   }
   
   .postbtn {
@@ -743,16 +712,16 @@ hr {
       font-size: 19px;
       
     }
+
     .postbtn:hover {
       opacity: 1;
       background-color: indigo;
       color: floralwhite;
       
     }
+
     .postbtn a{
       color: floralwhite;
-     
-      text-decoration: none;
-     
+      text-decoration: none;  
      
     } 

@@ -10,29 +10,49 @@
 
     <title>Login</title>
 </head>
-<body>
-    <div class="navbar">           
-        <ul>
-            <img src="../images/logo.png" class="logo1">
-            <div class="search-box">
-                <input type="text" class="form-control">
-                <button type="submit" placeholder="Search.." class="input-group-text"><i class="fa fa-search"></i></button>
-            </div>
-            <li><a href="../index.html">Home</li></a>
-            <li><a href="about.html">About us</li></a>
-            <div class="dropdown">
-                <li class="dropbtn" onclick="myFunction()">Signin
-                  <i class="fa fa-caret-down"></i>
-                <div class="dropdown-content">
-                    <a href="signin.html"> Signin</a>
-                    Or
-                    <a href="register.html">Register</a>  
+<body id="body1">
+    <header class="main-header">
+        <div class="nav">
+            <div class="navbar">           
+                <ul>
+                    <img src="../images/logo.png" class="logo1">
+                    
+                    <li><a href="../index.html"><i class="fa fa-fw fa-home"></i>Home</li></a>
+                    <div class="dropdown">
+                        <li class="dropbtn" onclick="myFunction()">Categories 
+                        <i class="fa fa-caret-down"></i>
+                            <div class="dropdown-content">
+                                <a href="#electronics">Electronics</a>
+                                <a href="#fashion">Fashion</a>
+                                <a href="#foodstuffs">Food Stuffs</a>
+                            </div>
+                    </div>
+                </li>
+                    <li><a href="about.html">About us</li></a>
+                    <div class="dropdown">
+                        <li class="dropbtn" onclick="myFunction()"><i class="fa fa-fw fa-user"></i>Signin
+                          <i class="fa fa-caret-down"></i>
+                        <div class="dropdown-content">
+                            <a href="signin.html"></i> Signin</a>
+                            Or
+                            <a href="register.html">Register</a>  
+                        </div>
+                    </div>
+                    </li>
+                    <li><a href="#carts"><i class="fa fa-shopping-basket"></i>Cart </a></li>
+                    <li><a href="upload.html">Sell product</a></li>
+                    <li><a href="faqspg.html">FAQs</a></li>
+                </ul>
+                
+                <div class="search-box">
+                    <input type="text" placeholder="Search...." class="form-control">
+                    <button type="submit" class="input-group-text"><i class="fa fa-search"></i></button>
                 </div>
-            </div>
-            </li>
-            <li><a href="cart.html"><i class="fa fa-shopping-basket"></i>Cart<span>0</span></a></li>
-        </ul>
-     </div>
+                <h1 class="band-name band-name-large">The Pirema Shoppers</h1>
+             </div>
+        </div>
+        
+    </header>
 </div>
 
     
@@ -42,7 +62,7 @@
                 <img src="../images/logo.png" alt="logo" class="logo">
             </div>
     
-            <div class="container">
+            <div class="container2">
                 <label for="email"><b>Email</b></label> <br>
                 <input type="text" placeholder="Enter Email" name="email" id="mail"><br>
 
@@ -62,6 +82,6 @@
 
     </div>
     <script src="../script/app.js"></script>   
-            <!-- //link to the source file of javascript function -->
+    <!-- //link to the source file of javascript function -->
 </body>
 </html>
