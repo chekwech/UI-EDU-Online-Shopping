@@ -51,14 +51,14 @@ body {
 }
 
 .main-header {
-    background-color: rgba(0, 0, 0, .6);
-    background-image: url("night.jpg");
-    background-blend-mode: multiply;
+    background-color: #E5BAEA;
+    background-image: url("red.jpeg");
+    background-blend-mode: color-burn;
     background-size: cover;
     padding-bottom: 30px;
 }
 
-.band-name {
+.footer-item-name {
     text-align: center;
     margin: 0;
     font-size: 4em;
@@ -67,8 +67,11 @@ body {
     color: white;
 }
 
-.band-name-large {
-    font-size: 8em;
+.product-name-large {
+    font-size: 5em;
+    text-emphasis: bold;
+    color: white;
+    text-align: center;
 }
 
 .content-section {
@@ -83,18 +86,10 @@ body {
 
 .section-header {
     font-family: "Metal Mania";
-    font-weight: normal;
+    font-weight: bold;
     color: #333;
     text-align: center;
     font-size: 2.5em;
-}
-
-.about-band-image {
-    float: left;
-    height: 200px;
-    width: 200px;
-    margin: 15px;
-    border-radius: 50%;
 }
 
 .main-footer {
@@ -352,6 +347,11 @@ body {
     text-size-adjust: 20px;
 }
 
+#drop {
+    color: white;
+    font-weight: bolder;
+}
+
 #container {
     background-color: rgb(255, 191, 255);
     padding: 1.25em;
@@ -403,4 +403,31 @@ a.back-to-top {
 
 .back-to-top.show {
     opacity: 1;
+}
+
+.box {
+    /* width: 100%;
+    height: 30px; */
+    text-align: center;
+    /* border: thin;
+    border-radius: 100%; */
+    color: tomato;
+}
+
+#search {
+    margin: 0 auto;
+    left: 575px;
+    height: 30px;
+    width: 400px;
+    border-radius: 25%;
+    text-align: center;
+    font-size: 16px;
+    font-stretch: expanded;
+    background-color: whitesmoke;
+    text-decoration: rgb(4, 0, 7);
+}
+
+#click {
+    font-size: 16px;
+    color: royalblue;
 }

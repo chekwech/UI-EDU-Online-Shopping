@@ -20,11 +20,11 @@
                     <li>
                         <form action="" class="select">
 
-                            <select name="forma" onchange="location = this.options[this.selectedIndex].value;" style="width:200px; 
-                        height:40px; margin-left:-40px; background-color: rgb(209, 72, 159);border-color: rgb(161,156,156);
-                        font-size: 20px;font-style:inherit;">
+                            <select id="drop" name="forma" onchange="location = this.options[this.selectedIndex].value;" style="width:200px; 
+                        height:40px; margin-left:-40px; background-color: rgb(243, 108, 205) ;border-color: rgb(218, 69, 163);
+                        font-size: 17px;font-style:inherit;">
                         <!--style= width:120px;border-radius:10px;height:35px;>-->
-                        <option hidden="">Categories</option>
+                        <option hidden="">CATEGORIES</option>
                         <a href="#electronics"><option value="#electronics">Electronics</option></a>
                         <a href="#fashion"><option value="#fashion">Fashion</option></a>
                         <a href="#foodstuffs"><option value="#foodstuffs">Food Stuffs</option></a>
@@ -39,9 +39,12 @@
             </nav>
             <div>
                 <h1 class="product-name-large">The Pirema Shoppers</h1>
-                <input placeholder="type item name" type="text" id="search">
-                <input type="button" value="Search" onclick="search(document.getElementById('search').value)">
+                <div class="box">
+                    <input placeholder="type item name" type="text" id="search">
+                    <input id="click" type="button" value="Search" onclick="search(document.getElementById('search').value)">
+                </div>
             </div>
+
         </header>
         <section class="container content-section">
             <h2 class="section-header"><a name="electronics">ELECTRONICS</a></h2>

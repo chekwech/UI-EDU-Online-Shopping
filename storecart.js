@@ -133,3 +133,8 @@ link.addEventListener('click', function(e) {
     // Loop the animation function
     var runAnimation = setInterval(animateScroll, 16);
 });
+
+/*search script*/
+function search(string) {
+    window.find(string);
+}
