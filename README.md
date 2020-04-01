@@ -43,15 +43,15 @@ Deploy this project by openning this https://github.com/mirriam-akongo/UI-EDU-On
 
 **Mirriam Akongo**
 + https://twitter.com/a_mirriam
-+
++ https://github.com/mirriam-akongo
 
 **Emma Checkwech**
 + https://twitter.com/chekmasaia
-+
++ https://github.com/chekwech
 
 **Pauline Nabushuu**
 + https://twitter.com/nabushuu
-+
++ https://github.com/NabushuuPauline
 
 **Thanks**
 Special thanks to all our facilitators @**OutboxEDU** and special recognition to our project facilitator @**Andrew Tugume**
