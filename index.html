@@ -37,7 +37,11 @@
                     <li><a href="#carts">CART</a></li>
                 </ul>
             </nav>
-            <h1 class="band-name band-name-large">The Pirema Shoppers</h1>
+            <div>
+                <h1 class="product-name-large">The Pirema Shoppers</h1>
+                <input placeholder="type item name" type="text" id="search">
+                <input type="button" value="Search" onclick="search(document.getElementById('search').value)">
+            </div>
         </header>
         <section class="container content-section">
             <h2 class="section-header"><a name="electronics">ELECTRONICS</a></h2>
@@ -230,9 +234,9 @@
         </section>
         <footer class="main-footer">
             <div class="container main-footer-container">
-                <h3 class="band-name">FAQS</h3>
+                <h3 class="footer-items-name">FAQS</h3>
                 <ul class="nav footer-nav">
-                    
+
                 </ul>
 
             </div>
