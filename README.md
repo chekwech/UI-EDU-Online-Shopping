@@ -42,15 +42,15 @@ Deploy this project by openning this https://github.com/mirriam-akongo/UI-EDU-On
 **Creators**
 
 **Mirriam Akongo**
-+
++ https://twitter.com/a_mirriam
 +
 
 **Emma Checkwech**
-+
++ https://twitter.com/chekmasaia
 +
 
 **Pauline Nabushuu**
-+
++ https://twitter.com/nabushuu
 +
 
 **Thanks**
