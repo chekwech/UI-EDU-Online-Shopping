@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>The Shoppers | Store</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="This is the description">
+    <link rel="stylesheet" href="style.css" />
+    <script src="storecart.js" async></script>
+    <a href="#" id="back-to-top" class="back-to-top" style="display: inline;">Top</a>
+</head>
+
+<body>
+    <a href="#" id="scroll" style="display: none;"><span></span></a>
+    <div id="container">
+        <header class="main-header">
+            <nav class="main-nav nav">
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li>
+                        <form action="" class="select">
+
+                            <select name="forma" onchange="location = this.options[this.selectedIndex].value;" style="width:200px; 
+                        height:40px; margin-left:-40px; background-color: rgb(209, 72, 159);border-color: rgb(161,156,156);
+                        font-size: 20px;font-style:inherit;">
+                        <!--style= width:120px;border-radius:10px;height:35px;>-->
+                        <option hidden="">Categories</option>
+                        <a href="#electronics"><option value="#electronics">Electronics</option></a>
+                        <a href="#fashion"><option value="#fashion">Fashion</option></a>
+                        <a href="#foodstuffs"><option value="#foodstuffs">Food Stuffs</option></a>
+                        
+                    </select>
+                        </form>
+                        <!--<a href="#">STORE</a>-->
+                    </li>
+                    <li><a href="about.html">ABOUT</a></li>
+                    <li><a href="#carts">CART</a></li>
+                </ul>
+            </nav>
+            <h1 class="band-name band-name-large">The Pirema Shoppers</h1>
+        </header>
+        <section class="container content-section">
+            <h2 class="section-header"><a name="electronics">ELECTRONICS</a></h2>
+            <hr />
+            <div class="shop-items">
+                <div class="shop-item">
+                    <span class="shop-item-title">HP Laptop</span>
+                    <img class="shop-item-image" src="laptop.png">
+                    <div class="shop-item-details">
+                        <span class="shop-item-price">$990.99</span>
+                        <button class="btn btn-primary shop-item-button" type="button">ADD TO CART</button>
+                    </div>
+                </div>
+                <div class="shop-item">
+                    <span class="shop-item-title">Sumsung s9</span>
+                    <img class="shop-item-image" src="phone.png">
+                    <div class="shop-item-details">
+                        <span class="shop-item-price">$350.09</span>
+                        <button class="btn btn-primary shop-item-button" type="button">ADD TO CART</button>
+                    </div>
+                </div>
+                <div class="shop-item">
+                    <span class="shop-item-title">LG TV</span>
+                    <img class="shop-item-image" src="tv.png">
+                    <div class="shop-item-details">
+                        <span class="shop-item-price">$590.00</span>
+                        <button class="btn btn-primary shop-item-button" type="button">ADD TO CART</button>
+                    </div>
+                </div>
+                <div class="shop-item">
+                    <span class="shop-item-title">80's Radio</span>
+                    <img class="shop-item-image" src="radio.png">
+                    <div class="shop-item-details">
+                        <span class="shop-item-price">$109.99</span>
+                        <button class="btn btn-primary shop-item-button" type="button">ADD TO CART</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="container content-section">
+            <h2 class="section-header">KITCHEN</h2>
+            <div class="shop-items">
+                <div class="shop-item">
+                    <span class="shop-item-title">LG Fridge</span>
+                    <img class="shop-item-image" src="fridge.png">
+                    <div class="shop-item-details">
+                        <span class="shop-item-price">$290.80</span>
+                        <button class="btn btn-primary shop-item-button" type="button">ADD TO CART</button>
+                    </div>
+                </div>
+                <div class="shop-item">
+                    <span class="shop-item-title">LG Microwave</span>
+                    <img class="shop-item-image" src="microwave.png">
+                    <div class="shop-item-details">
+                        <span class="shop-item-price">$160.12</span>
+                        <button class="btn btn-primary shop-item-button" type="button">ADD TO CART</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="container content-section">
+            <h2 class="section-header">
+                <a name="fashion">FASHION</a>
+            </h2>
+            <hr />
+            <div class="shop-items">
+                <div class="shop-item">
+                    <span class="shop-item-title">Suits</span>
+                    <img class="shop-item-image" src="suit.png">
+                    <div class="shop-item-details">
+                        <span class="shop-item-price">$102.0</span>
+                        <button class="btn btn-primary shop-item-button" type="button">ADD TO CART</button>
+                    </div>
+                </div>
+                <div class="shop-item">
+                    <span class="shop-item-title">Dress</span>
+                    <img class="shop-item-image" src="dress.png">
+                    <div class="shop-item-details">
+                        <span class="shop-item-price">$14.23</span>
+                        <button class="btn btn-primary shop-item-button" type="button">ADD TO CART</button>
+                    </div>
+                </div>
+                <div class="shop-item">
+                    <span class="shop-item-title">Jacket</span>
+                    <img class="shop-item-image" src="jacket.png">
+                    <div class="shop-item-details">
+                        <span class="shop-item-price">$29.99</span>
+                        <button class="btn btn-primary shop-item-button" type="button">ADD TO CART</button>
+                    </div>
+                </div>
+                <div class="shop-item">
+                    <span class="shop-item-title">Skirt</span>
+                    <img class="shop-item-image" src="skirt.png">
+                    <div class="shop-item-details">
+                        <span class="shop-item-price">$19.99</span>
+                        <button class="btn btn-primary shop-item-button" type="button">ADD TO CART</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="container content-section">
+            <h2 class="section-header">WEAR</h2>
+            <div class="shop-items">
+                <div class="shop-item">
+                    <span class="shop-item-title">Men's Soes</span>
+                    <img class="shop-item-image" src="mshoes.png">
+                    <div class="shop-item-details">
+                        <span class="shop-item-price">$39.99</span>
+                        <button class="btn btn-primary shop-item-button" type="button">ADD TO CART</button>
+                    </div>
+                </div>
+                <div class="shop-item">
+                    <span class="shop-item-title">Ladies' Shoes</span>
+                    <img class="shop-item-image" src="lshoes.png">
+                    <div class="shop-item-details">
+                        <span class="shop-item-price">$26.99</span>
+                        <button class="btn btn-primary shop-item-button" type="button">ADD TO CART</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="container content-section">
+            <h2 class="section-header"><a name="foodstuffs">FOOD STUFFS</a></h2>
+            <hr />
+            <div class="shop-items">
+                <div class="shop-item">
+                    <span class="shop-item-title">Matooke</span>
+                    <img class="shop-item-image" src="matooke.png">
+                    <div class="shop-item-details">
+                        <span class="shop-item-price">$12.67</span>
+                        <button class="btn btn-primary shop-item-button" type="button">ADD TO CART</button>
+                    </div>
+                </div>
+                <div class="shop-item">
+                    <span class="shop-item-title">Rice</span>
+                    <img class="shop-item-image" src="rice.png">
+                    <div class="shop-item-details">
+                        <span class="shop-item-price">$4.97</span>
+                        <button class="btn btn-primary shop-item-button" type="button">ADD TO CART</button>
+                    </div>
+                </div>
+                <div class="shop-item">
+                    <span class="shop-item-title">Chicken</span>
+                    <img class="shop-item-image" src="chicken.png">
+                    <div class="shop-item-details">
+                        <span class="shop-item-price">$9.99</span>
+                        <button class="btn btn-primary shop-item-button" type="button">ADD TO CART</button>
+                    </div>
+                </div>
+                <div class="shop-item">
+                    <span class="shop-item-title">Beans</span>
+                    <img class="shop-item-image" src="beans.png">
+                    <div class="shop-item-details">
+                        <span class="shop-item-price">$2.09</span>
+                        <button class="btn btn-primary shop-item-button" type="button">ADD TO CART</button>
+                    </div>
+                </div>
+                <div class="shop-item">
+                    <span class="shop-item-title">Irish</span>
+                    <img class="shop-item-image" src="irish.png">
+                    <div class="shop-item-details">
+                        <span class="shop-item-price">$1.99</span>
+                        <button class="btn btn-primary shop-item-button" type="button">ADD TO CART</button>
+                    </div>
+                </div>
+                <div class="shop-item">
+                    <span class="shop-item-title">Fruits</span>
+                    <img class="shop-item-image" src="fruits.png">
+                    <div class="shop-item-details">
+                        <span class="shop-item-price">$6.99</span>
+                        <button class="btn btn-primary shop-item-button" type="button">ADD TO CART</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="container content-section">
+            <h2 class="section-header"><a name="carts">CART</a></h2>
+            <div class="cart-row">
+                <span class="cart-item cart-header cart-column">ITEM</span>
+                <span class="cart-price cart-header cart-column">PRICE</span>
+                <span class="cart-quantity cart-header cart-column">QUANTITY</span>
+            </div>
+            <div class="cart-items">
+            </div>
+            <div class="cart-total">
+                <strong class="cart-total-title">Total</strong>
+                <span class="cart-total-price">$0</span>
+            </div>
+            <button class="btn btn-primary btn-purchase" type="button">PURCHASE</button>
+        </section>
+        <footer class="main-footer">
+            <div class="container main-footer-container">
+                <h3 class="band-name">FAQS</h3>
+                <ul class="nav footer-nav">
+                    
+                </ul>
+
+            </div>
+
+        </footer>
+</body>
+</div>
+
+</html>
