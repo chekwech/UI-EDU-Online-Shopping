@@ -1,6 +1,6 @@
 # UI-EDU-Online-Shopping
 
-EDU-Online Shopping directory for the capstone project.EDU-Online shopping is an online platform where people can buy and sell different items and goods.
+EDU-Online Shopping directory for the capstone project. EDU-Online shopping is an online platform where people can buy and sell different items and goods.
  <https://github.com/mirriam-akongo/UI-EDU-Online-Shopping>
  
 
@@ -57,6 +57,7 @@ Deploy this project by openning this https://github.com/mirriam-akongo/UI-EDU-On
 Special thanks to all our facilitators @**OutboxEDU** and special recognition to our project facilitator @**Andrew Tugume**
 
 **Copyright and Licence**
+Code and documentation copyright @pirema shopping hearts and the Creators. Code released under the **MIT Licence**.
 
 
 
