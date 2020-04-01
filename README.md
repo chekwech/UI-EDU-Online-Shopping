@@ -58,6 +58,7 @@ Deploy this project by openning this https://github.com/mirriam-akongo/UI-EDU-On
 Special thanks to all our facilitators @**OutboxEDU** and special recognition to our project facilitator @**Andrew Tugume**
 
 **Copyright and Licence**
+
 Code and documentation copyright @pirema shopping hearts and the Creators. Code released under the **MIT Licence**.
 
 
