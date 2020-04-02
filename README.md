@@ -32,6 +32,7 @@ Deploy this project by openning this https://github.com/mirriam-akongo/UI-EDU-On
 + **Zoom** - For communication and meetings
 
 **Contributing**
+
 Feel free to contribute and make awesome additions or contact one of the creators for details
 
 
