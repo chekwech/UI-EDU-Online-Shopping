@@ -18,11 +18,6 @@ Quick start options available:
 + For version control have **Github** installed
 + For project management process and history **Pivotal Tracker**
 
-**Installing**
-
-
-**Running the tests**
-
 
 **Documentation for previous releases**
 You can find all previous releases on https://github.com/mirriam-akongo/UI-EDU-Online-Shopping
@@ -37,6 +32,7 @@ Deploy this project by openning this https://github.com/mirriam-akongo/UI-EDU-On
 + **Zoom** - For communication and meetings
 
 **Contributing**
+Feel free to contribute and make awesome additions or contact one of the creators for details
 
 
 **Creators**
