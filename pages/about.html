@@ -13,9 +13,9 @@
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
         <a href="#" id="back-to-top" class="back-to-top" style="display: inline;">Top</a>
     </head>
-    <body id="body3">
+    <body id="body2">
         <a href="#" id="scroll" style="display: none;"><span></span></a>
-        <div id="container1">
+        <div id="container">
             <main>
             <header class="main-header">
                 <div class="nav">
@@ -51,17 +51,18 @@
                         </ul>
                         
                         <div class="search-box">
-                            <input type="text" placeholder="Search...." class="form-control">
-                            <button type="submit" class="input-group-text"><i class="fa fa-search"></i></button>
+                            <!-- <input placeholder="type item name" type="text" id="search"> -->
+                            <input type="text" placeholder="type item name" class="form-control" id="search">
+                            <button type="submit" class="input-group-text" value="Search" onclick="search(document.getElementById('search').value)"><i class="fa fa-search"></i></button>
+                            <!-- <input type="button" value="Search" onclick="search(document.getElementById('search').value)"> -->
+                           
                         </div>
                         <h1 class="band-name band-name-large">The Pirema Shoppers</h1>
                     </div>
                 </div>
                 
             </header>
-                <div id= "search bar"> 
-                    <input type="text" placeholder="Search..">
-                </div>
+            
             <h1>ABOUT US</h1>
             <p>
                 Pirema is Africa's premier online shopping and selling brand. Pirema was

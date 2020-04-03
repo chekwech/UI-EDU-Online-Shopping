@@ -2,48 +2,44 @@
 @import url('https://fonts.googleapis.com/css?family=Raleway:300,400,700');
 @import url("https://fonts.googleapis.com/css?family=Metal+Mania");
 @font-face {
-    font-family: "Lobster","Booter - Zero Zero";
-    src: url("Fonts/Booter - Zero Zero.woff") format("woff"), url("Fonts/Booter - Zero Zero.woff2") format("woff2");
-    font-weight: normal;
-    font-style: normal;
+  font-family: "Lobster","Booter - Zero Zero";
+  src: url("Fonts/Booter - Zero Zero.woff") format("woff"), url("Fonts/Booter - Zero Zero.woff2") format("woff2");
+  font-weight: normal;
+  font-style: normal;
     
 }
 
 * {
-    box-sizing: border-box;
-    font-family: "Lobster", Raleway;
+  box-sizing: border-box;
+  font-family: "Lobster", Raleway;
 }
 
 html,
 #body2 {
-    margin-top: 40px;
-    padding: 0;
-    min-height: 100%;
+  margin-top: 0;
+  padding: 0;
+  min-height: 100%;
 }
 
-#body2{
-    background-color: #DA70D6;
-    background-image: linear-gradient(to bottom, #FFFFFF, #DA70D6);
-    background-repeat: no-repeat;
-}
+
 
 .navbar {
-  margin: 0;
-  left: 0;
-  background-color: indigo;
-  /* text-align:center; */
   position: fixed;
-  top: 0;   
-  width: 100%; 
-
+  top: 0;
+  width: 75%;
+  display: block;
+  transition: top 0.3s;
+  background-color: indigo; 
 }
 
 .navbar li span{
   padding-left: 5px;
 }
-
+.navbar ul {
+  margin: 0;
+}
 .navbar ul li{
-margin-top: 20px;
+
 display: inline;
 list-style: none;  
 padding: 20px;
@@ -74,6 +70,7 @@ li.dropdown {
   display: inline-block;
   color: indigo;
 }
+
 
 .dropdown-content {
   display: none;
@@ -138,19 +135,19 @@ img.logo1{
 }
 
 .band-name {
-    text-align: center;
-    margin: 30px;
-    font-size: 2em;
-    font-family: "Lobster", Raleway;
-    font-weight: normal;
-    color: white;
-    display: inline-flexbox;
-    margin-top: 0px;
-    float: right;
-    display: inline-flex;
-    width: 40%;
-
+  text-align: center;
+  margin: 30px;
+  font-size: 2em;
+  font-family: "Lobster", Raleway;
+  font-weight: normal;
+  color: white;
+  display: inline-flexbox;
+  margin-top: 0px;
+  float: right;
+  display: inline-flex;
+  width: 40%;
 }
+
 h1 {
     font-size: 2em;
 }
@@ -163,7 +160,7 @@ h1 {
 }
 
 .container {
-    
+    margin-top:30px;
     max-width: 900px;
     margin: 100px;
     padding: 0 1.5em;
@@ -295,52 +292,52 @@ h1 {
 }
 
 .shop-item-title {
-    display: block;
-    width: 100%;
-    text-align: center;
-    font-weight: bold;
-    font-size: 1.5em;
-    color: #333;
-    margin-bottom: 15px;
+  display: block;
+  width: 100%;
+  text-align: center;
+  font-weight: bold;
+  font-size: 1.5em;
+  color: #333;
+  margin-bottom: 15px;
 }
 
 .shop-item-image {
-    height: 250px;
-    width: 230px;
-    max-width: 100%;
-    object-fit: scale-down;
+  height: 250px;
+  width: 230px;
+  max-width: 100%;
+  object-fit: scale-down;
 }
 
 .shop-item-details {
-    display: flex;
-    align-items: center;
-    padding: 5px;
+  display: flex;
+  align-items: center;
+  padding: 5px;
 }
 
 .shop-item-price {
-    flex-grow: 1;
-    color: #333;
+  flex-grow: 1;
+  color: #333;
 }
 
 .shop-items {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-around;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
 }
 
 .cart-header {
-    font-weight: bold;
-    font-size: 1.25em;
-    color: #333;
+  font-weight: bold;
+  font-size: 1.25em;
+  color: #333;
 }
 
 .cart-column {
-    display: flex;
-    align-items: center;
-    border-bottom: 1px solid black;
-    margin-right: 1.5em;
-    padding-bottom: 10px;
-    margin-top: 10px;
+  display: flex;
+  align-items: center;
+  border-bottom: 1px solid black;
+  margin-right: 1.5em;
+  padding-bottom: 10px;
+  margin-top: 10px;
 }
 
 .cart-row {
@@ -352,76 +349,76 @@ h1 {
 }
 
 .cart-price {
-    width: 20%;
-    font-size: 1.2em;
-    color: #333;
+  width: 20%;
+  font-size: 1.2em;
+  color: #333;
 }
 
 .cart-quantity {
-    width: 35%;
+  width: 35%;
 }
 
 .cart-item-title {
-    color: #333;
-    margin-left: .5em;
-    font-size: 1.2em;
+  color: #333;
+  margin-left: .5em;
+  font-size: 1.2em;
 }
 
 .cart-item-image {
-    width: 75px;
-    height: auto;
-    border-radius: 10px;
+  width: 75px;
+  height: auto;
+  border-radius: 10px;
 }
 
 .btn-danger {
-    color: white;
-    background-color: #EB5757;
-    border: none;
-    border-radius: .3em;
-    font-weight: bold;
+  color: white;
+  background-color: #EB5757;
+  border: none;
+  border-radius: .3em;
+  font-weight: bold;
 }
 
 .btn-danger:hover {
-    background-color: #CC4C4C;
+  background-color: #CC4C4C;
 }
 
 .cart-quantity-input {
-    height: 34px;
-    width: 50px;
-    border-radius: 5px;
-    border: 1px solid #56CCF2;
-    background-color: #eee;
-    color: #333;
-    padding: 0;
-    text-align: center;
-    font-size: 1.2em;
-    margin-right: 25px;
+  height: 34px;
+  width: 50px;
+  border-radius: 5px;
+  border: 1px solid #56CCF2;
+  background-color: #eee;
+  color: #333;
+  padding: 0;
+  text-align: center;
+  font-size: 1.2em;
+  margin-right: 25px;
 }
 
 .cart-row:last-child {
-    border-bottom: 1px solid black;
+  border-bottom: 1px solid black;
 }
 
 .cart-row:last-child .cart-column {
-    border: none;
+  border: none;
 }
 
 .cart-total {
-    text-align: end;
-    margin-top: 10px;
-    margin-right: 10px;
+  text-align: end;
+  margin-top: 10px;
+  margin-right: 10px;
 }
 
 .cart-total-title {
-    font-weight: bold;
-    font-size: 1.5em;
-    color: black;
-    margin-right: 20px;
+  font-weight: bold;
+  font-size: 1.5em;
+  color: black;
+  margin-right: 20px;
 }
 
 .cart-total-price {
-    color: #333;
-    font-size: 1.1em;
+  color: #333;
+  font-size: 1.1em;
 }
 
 .btn-purchase {
@@ -431,24 +428,24 @@ h1 {
 }
 
 .select {
-    margin-right: 70px;
-    float: right;
-    width: 100px;
-    border-radius: 15px;
-    padding: 10px;
-    margin-top: -10px;
-    text-size-adjust: 20px;
+  margin-right: 70px;
+  float: right;
+  width: 100px;
+  border-radius: 15px;
+  padding: 10px;
+  margin-top: -10px;
+  text-size-adjust: 20px;
 }
 
 #container {
-    background-color: rgb(255, 191, 255);
-    padding: 1.25em;
-    width: 80%;
-    /*min-width: 800px; max-width: 960px;*/
-    margin-right: auto;
-    margin-left: auto;
-    box-shadow: 15px 15px 15px #1e1e1e;
-    /*background-image: url(blue.png);*/
+  background-color: rgb(255, 191, 255);
+  padding: 1.25em;
+  width: 80%;
+  /*min-width: 800px; max-width: 960px;*/
+  margin-right: auto;
+  margin-left: auto;
+  box-shadow: 15px 15px 15px #1e1e1e;
+  /*background-image: url(blue.png);*/
 }
 
 #container1 {
@@ -463,86 +460,65 @@ h1 {
 }
 
 .back-to-top {
-    background-color: #000000;
-    color: #FFFFFF;
-    opacity: 0;
-    transition: opacity .6s ease-in-out;
-    z-index: 999;
-    position: fixed;
-    right: 20px;
-    bottom: 20px;
-    width: 50px;
-    height: 50px;
-    box-sizing: border-box;
-    border-radius: 50%;
+  background-color: #000000;
+  color: #FFFFFF;
+  opacity: 0;
+  transition: opacity .6s ease-in-out;
+  z-index: 999;
+  position: fixed;
+  right: 20px;
+  bottom: 20px;
+  width: 50px;
+  height: 50px;
+  box-sizing: border-box;
+  border-radius: 50%;
 }
 
 a.back-to-top {
-    font-weight: 1000;
-    letter-spacing: 2px;
-    font-size: 14px;
-    text-transform: uppercase;
-    text-align: center;
-    line-height: 1.6;
-    padding-left: 2px;
-    padding-top: 14px;
+  font-weight: 1000;
+  letter-spacing: 2px;
+  font-size: 14px;
+  text-transform: uppercase;
+  text-align: center;
+  line-height: 1.6;
+  padding-left: 2px;
+  padding-top: 14px;
 }
 
 .back-to-top:hover,
 .back-to-top:focus,
 .back-to-top:visited {
-    color: #FFFFFF;
+  color: #FFFFFF;
 }
 
 .back-to-top.show {
-    opacity: 1;
+  opacity: 1;
 }
 
 /*Pauline*/
 #footer3{
-    display: flex;
-    justify-content: space-around;
-    align-items:center;
+  display: flex;
+  justify-content: space-around;
+  align-items:center;
 } 
 
-#body3{
-    margin-top: 50px;
-    padding: 0;
-    min-height: 100%;
-    font-family: Raleway;
-    height: 100%;
-    font-size:25px;
-    background-color: #DA70D6;
-    color: indigo;
-} 
 p {
-    align-content: center;
-    font-family: Raleway;
-    font-size:25px;
+  align-content: center;
+  font-family: Raleway;
+  font-size:25px;
 }
 
 
 /*Mirriam*/
-#body1 {
+  form {
+  font-size:20px;
+  border: 3px solid indigo;
   margin-top: 50px;
-    padding: 0;
-    min-height: 100%;
-    font-family: "Lobster";
-    height: 100%;
-    font-size:25px;
-    background-color: #DA70D6;
-    color: indigo;
-  }
-
-    form {
-    font-size:20px;
-    border: 3px solid indigo;
-    margin-top: 50px;
-    margin: 0 auto; 
-    width:400px;
-    background-color: floralwhite;
-    padding: 20px;
-    font-family: 'Lobster';
+  margin: 0 auto; 
+  width:400px;
+  background-color: floralwhite;
+  padding: 20px;
+  font-family: 'Lobster';
   }
   
    
@@ -640,18 +616,18 @@ p {
   
   /* Change styles for span and cancel button on extra small screens */
 @media screen and (max-width: 300px) {
-    span.psw {
-       display: block;
-       float: none;
-    }
-    .registerbtn {
-       width: 100%;
-    }
+  span.psw {
+    display: block;
+    float: none;
+  }
+  .registerbtn {
+    width: 100%;
+  }
 }
 
 hr {
-    border: 1px solid #f1f1f1;
-    margin-bottom: 25px;
+  border: 1px solid #f1f1f1;
+  margin-bottom: 25px;
   }
 
   .cancelbtn {
@@ -678,14 +654,9 @@ hr {
   }
   .cancelbtn a{
     color: floralwhite;
-   
     text-decoration: none;
    
-   
   }
-
-
-  
 
   #file {
     padding: 10px;
@@ -711,31 +682,29 @@ hr {
   }
   
   .postbtn {
-      background-color: green;
-      border: none;
-      color: floralwhite;
-      padding: 15px 32px;
-      text-align: center;
-      text-decoration: none;
-      display: inline-block;
-      font-size: 16px;
-      margin: 10px 30px;
-      cursor: pointer;
-      border-radius: 12px;
-      font-family: 'Lobster';
-      font-size: 19px;
-      
+    background-color: green;
+    border: none;
+    color: floralwhite;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 10px 30px;
+    cursor: pointer;
+    border-radius: 12px;
+    font-family: 'Lobster';
+    font-size: 19px;
+    
+  }
+
+  .postbtn:hover {
+    opacity: 1;
+    background-color: indigo;
+    color: floralwhite;
     }
 
-    .postbtn:hover {
-      opacity: 1;
-      background-color: indigo;
-      color: floralwhite;
-      
-    }
-
-    .postbtn a{
-      color: floralwhite;
-      text-decoration: none;  
-     
-    } 
+  .postbtn a{
+    color: floralwhite;
+    text-decoration: none;  
+  } 

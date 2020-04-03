@@ -17,7 +17,7 @@
     <div id="container">
         <header class="main-header">
             <div class="nav">
-                <div class="navbar">           
+                <div class="navbar" id="navbar">           
                     <ul>
                         <img src="images/logo.png" class="logo1">
                         
@@ -49,8 +49,11 @@
                     </ul>
                     
                     <div class="search-box">
-                        <input type="text" placeholder="Search...." class="form-control">
-                        <button type="submit" class="input-group-text"><i class="fa fa-search"></i></button>
+                        <!-- <input placeholder="type item name" type="text" id="search"> -->
+                        <input type="text" placeholder="type item name" class="form-control" id="search">
+                        <button type="submit" class="input-group-text" value="Search" onclick="search(document.getElementById('search').value)"><i class="fa fa-search"></i></button>
+                        <!-- <input type="button" value="Search" onclick="search(document.getElementById('search').value)"> -->
+                       
                     </div>
                     <div><h1 class="band-name band-name-large">The Pirema Shoppers</h1></div>
                  </div>

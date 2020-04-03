@@ -9,84 +9,90 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <title>Upload</title>
 </head>
-<body id="body1">
-    <header class="main-header">
-        <div class="nav">
-            <div class="navbar">           
-                <ul>
-                    <img src="../images/logo.png" class="logo1">
-                    
-                    <li><a href="../index.html"><i class="fa fa-fw fa-home"></i>Home</li></a>
-                    <div class="dropdown">
-                        <li class="dropbtn" onclick="myFunction()">Categories 
-                        <i class="fa fa-caret-down"></i>
-                            <div class="dropdown-content">
-                                <a href="#electronics">Electronics</a>
-                                <a href="#fashion">Fashion</a>
-                                <a href="#foodstuffs">Food Stuffs</a>
+<body id="body2">
+    <a href="#" id="scroll" style="display: none;"><span></span></a>
+    <div id="container">
+            <header class="main-header">
+                <div class="nav">
+                    <div class="navbar">           
+                        <ul>
+                            <img src="../images/logo.png" class="logo1">
+                            
+                            <li><a href="../index.html"><i class="fa fa-fw fa-home"></i>Home</li></a>
+                            <div class="dropdown">
+                                <li class="dropbtn" onclick="myFunction()">Categories 
+                                <i class="fa fa-caret-down"></i>
+                                    <div class="dropdown-content">
+                                        <a href="#electronics">Electronics</a>
+                                        <a href="#fashion">Fashion</a>
+                                        <a href="#foodstuffs">Food Stuffs</a>
+                                    </div>
                             </div>
-                    </div>
-                </li>
-                    <li><a href="about.html">About us</li></a>
-                    <div class="dropdown">
-                        <li class="dropbtn" onclick="myFunction()"><i class="fa fa-fw fa-user"></i>Signin
-                          <i class="fa fa-caret-down"></i>
-                        <div class="dropdown-content">
-                            <a href="signin.html"></i> Signin</a>
-                            Or
-                            <a href="register.html">Register</a>  
+                        </li>
+                            <li><a href="about.html">About us</li></a>
+                            <div class="dropdown">
+                                <li class="dropbtn" onclick="myFunction()"><i class="fa fa-fw fa-user"></i>Signin
+                                <i class="fa fa-caret-down"></i>
+                                <div class="dropdown-content">
+                                    <a href="signin.html"></i> Signin</a>
+                                    Or
+                                    <a href="register.html">Register</a>  
+                                </div>
+                            </div>
+                            </li>
+                            <li><a href="#carts"><i class="fa fa-shopping-basket"></i>Cart </a></li>
+                            <li><a href="upload.html">Sell product</a></li>
+                            <li><a href="faqspg.html">FAQs</a></li>
+                        </ul>
+                        
+                        <div class="search-box">
+                            <!-- <input placeholder="type item name" type="text" id="search"> -->
+                            <input type="text" placeholder="type item name" class="form-control" id="search">
+                            <button type="submit" class="input-group-text" value="Search" onclick="search(document.getElementById('search').value)"><i class="fa fa-search"></i></button>
+                            <!-- <input type="button" value="Search" onclick="search(document.getElementById('search').value)"> -->
+                           
                         </div>
+                        <div><h1 class="band-name band-name-large">The Pirema Shoppers</h1></div>
                     </div>
-                    </li>
-                    <li><a href="#carts"><i class="fa fa-shopping-basket"></i>Cart </a></li>
-                    <li><a href="upload.html">Sell product</a></li>
-                    <li><a href="faqspg.html">FAQs</a></li>
-                </ul>
-                
-                <div class="search-box">
-                    <input type="text" placeholder="Search...." class="form-control">
-                    <button type="submit" class="input-group-text"><i class="fa fa-search"></i></button>
                 </div>
-                <div><h1 class="band-name band-name-large">The Pirema Shoppers</h1></div>
-             </div>
-        </div>
-        
-    </header>
-    <div>
-    <form action="../index.html">
-        
+                
+            </header>
         <div>
-            <input type="file" id="file" accept="image/*" name="image" onchange="loadFile(event)" style="display: none;" >
-            <label for="file" style="cursor: pointer;">Upload Image</label>
-            <img id="output" width="200"><br><br>
+        <form action="../index.html">
+            
+            <div>
+                <input type="file" id="file" accept="image/*" name="image" onchange="loadFile(event)" style="display: none;" >
+                <label for="file" style="cursor: pointer;">Upload Image</label>
+                <img id="output" width="200"><br><br>
 
-        </div>
+            </div>
 
-        <div>
-            <label for="category">CATEGORY</label> 
-            <select id="country" name="country">
-                <option value="usa">ELECTRONICS</option>
-                <option value="kitchen">KITCHEN</option>
-                <option value="fashion">FASHION</option>
-            </select>
-            <br><br>     
-        </div>
-        <div>
-            <label for="item-name">NAME OF ITEM</label>
-            <input type="text" id="item-name">
-            <br><br>
-        </div>
-        <div>
-            <label for="item-price">PRICE</label>
-            <input type="text" id="item-price" placeholder="Enter Price in Dollars"> 
-            <br><br>
-        </div>
+            <div>
+                <label for="category">CATEGORY</label> 
+                <select id="country" name="country">
+                    <option value="usa">ELECTRONICS</option>
+                    <option value="kitchen">KITCHEN</option>
+                    <option value="fashion">FASHION</option>
+                </select>
+                <br><br>     
+            </div>
+            <div>
+                <label for="item-name">NAME OF ITEM</label>
+                <input type="text" id="item-name">
+                <br><br>
+            </div>
+            <div>
+                <label for="item-price">PRICE</label>
+                <input type="text" id="item-price" placeholder="Enter Price in Dollars"> 
+                <br><br>
+            </div>
 
-        <div>
-            <button type="submit" class="postbtn">POST ITEM</button>
-        </div>
-    </form>
-</div>
+            <div>
+                <button type="submit" class="postbtn">POST ITEM</button>
+            </div>
+        </form>
+    </div>
+    </div>
     <!-- <button type="button" id="custom-button">CHOOSE AN IMAGE</button>
     <span id="custom-text">No file choosen, yet</span> -->
     
