@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -10,58 +11,67 @@
 
     <title>Login</title>
 </head>
-<body id="body1">
-    <header class="main-header">
-        <div class="nav">
-            <div class="navbar">           
-                <ul>
-                    <img src="../images/logo.png" class="logo1">
-                    
-                    <li><a href="../index.html"><i class="fa fa-fw fa-home"></i>Home</li></a>
-                    <div class="dropdown">
-                        <li class="dropbtn" onclick="myFunction()">Categories 
-                        <i class="fa fa-caret-down"></i>
-                            <div class="dropdown-content">
-                                <a href="#electronics">Electronics</a>
-                                <a href="#fashion">Fashion</a>
-                                <a href="#foodstuffs">Food Stuffs</a>
-                            </div>
-                    </div>
-                </li>
-                    <li><a href="about.html">About us</li></a>
-                    <div class="dropdown">
-                        <li class="dropbtn" onclick="myFunction()"><i class="fa fa-fw fa-user"></i>Signin
-                          <i class="fa fa-caret-down"></i>
-                        <div class="dropdown-content">
-                            <a href="signin.html"></i> Signin</a>
-                            Or
-                            <a href="register.html">Register</a>  
-                        </div>
-                    </div>
-                    </li>
-                    <li><a href="#carts"><i class="fa fa-shopping-basket"></i>Cart </a></li>
-                    <li><a href="upload.html">Sell product</a></li>
-                    <li><a href="faqspg.html">FAQs</a></li>
-                </ul>
-                
-                <div class="search-box">
-                    <input type="text" placeholder="Search...." class="form-control">
-                    <button type="submit" class="input-group-text"><i class="fa fa-search"></i></button>
-                </div>
-                <h1 class="band-name band-name-large">The Pirema Shoppers</h1>
-             </div>
-        </div>
-        
-    </header>
-</div>
 
-    
+<!--<body id="body1">-->
+
+<body>
+    <div id="container">
+        <header class="main-header">
+            <div class="navItems">
+                <nav class="navLinks">
+                    <ul>
+
+
+                        <li><a href="../index.html"><i class="fa fa-fw fa-home"></i>Home</li></a>
+                            <div class="dropdown">
+                                <li class="dropbtn" onclick="myFunction()">Categories
+                                    <i class="fa fa-caret-down"></i>
+                                    <div class="dropdown-content">
+                                        <a href="#electronics">Electronics</a>
+                                        <a href="#fashion">Fashion</a>
+                                        <a href="#foodstuffs">Food Stuffs</a>
+                                    </div>
+                            </div>
+                            </li>
+                            <li><a href="about.html">About us</li></a>
+                                <div class="dropdown">
+                                    <li class="dropbtn" onclick="myFunction()"><i class="fa fa-fw fa-user"></i>Signin
+                                        <i class="fa fa-caret-down"></i>
+                                        <div class="dropdown-content">
+                                            <a href="signin.html"></i> Signin</a>
+                                            Or
+                                            <a href="register.html">Register</a>
+                                        </div>
+                                </div>
+                                </li>
+                                <li><a href="#carts"><i class="fa fa-shopping-basket"></i>Cart </a></li>
+                                <li><a href="upload.html">Sell product</a></li>
+                                <li><a href="faqspg.html">FAQs</a></li>
+                    </ul>
+                </nav>
+                <div class="searchName">
+                    <div class="logoName">
+                        <img src="../images/logo.png" class="logo1">
+                        <h1 class="biz-name-large">The Pirema Shoppers</h1>
+                    </div>
+                    <div class="search-box">
+                        <input type="text" placeholder="Search...." class="form-control">
+                        <button type="submit" class="input-group-text"><i class="fa fa-search"></i></button>
+                    </div>
+
+                </div>
+            </div>
+
+        </header>
+    </div>
+
+
     <div class="login">
         <form onsubmit="return validate()" action="../index.html" id="loginform">
             <div class="imgcontainer">
                 <img src="../images/logo.png" alt="logo" class="logo">
             </div>
-    
+
             <div class="container2">
                 <label for="email"><b>Email</b></label> <br>
                 <input type="text" placeholder="Enter Email" name="email" id="mail"><br>
@@ -74,14 +84,16 @@
                 </label><br><br>
                 <a href="register.html" class="registerbtn">Register</a>
                 <span class="psw"><a href="#">Forgot password?</a></span>
-    
+
             </div>
-    
-    
+
+
         </form>
 
     </div>
-    <script src="../script/app.js"></script>   
+    <script src="../script/app.js"></script>
     <!-- //link to the source file of javascript function -->
 </body>
+</div>
+
 </html>
