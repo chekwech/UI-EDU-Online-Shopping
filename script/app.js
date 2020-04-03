@@ -6,6 +6,20 @@ if (document.readyState == 'loading') {
     ready()
 }
 
+var prevScrollpos = window.pageYOffset;
+window.onscroll = function() {
+var currentScrollPos = window.pageYOffset;
+  if (prevScrollpos > currentScrollPos) {
+    document.getElementById("navbar").style.top = "0";
+  } else {
+    document.getElementById("navbar").style.top = "-50px";
+  }
+  prevScrollpos = currentScrollPos;
+}
+function search(string) {
+    window.find(string);
+}
+
 function ready() {
     var removeCartItemButtons = document.getElementsByClassName('btn-danger')
     for (var i = 0; i < removeCartItemButtons.length; i++) {
@@ -177,7 +191,10 @@ function validate(){
     }
 }
 
+
+
 var loadFile = function(event){
     var image = document.getElementById("output");
     image.src = URL.createObjectURL(event.target.files[0]);
 };
+
