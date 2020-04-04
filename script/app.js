@@ -1,13 +1,20 @@
 
-/*Emma*/
+
 if (document.readyState == 'loading') {
     document.addEventListener('DOMContentLoaded', ready)
 } else {
     ready()
 }
+    /* Search bar */
 function search(string) {
     window.find(string);
 }
+    /* Upload Image */
+var loadFile = function(event){
+    var image = document.getElementById('output');
+    image.src = URL.createObjectURL(event.target.files[0]);
+   
+};
 
 var prevScrollpos = window.pageYOffset;
 window.onscroll = function() {
@@ -152,7 +159,7 @@ link.addEventListener('click', function(e) {
     var runAnimation = setInterval(animateScroll, 16);
 });
 
-/*Mirriam*/
+    /* Validation */
 function validate(){
     var username = document.getElementById("mail");
     var password = document.getElementById("psw");
@@ -195,8 +202,5 @@ function validate(){
 
 
 
-var loadFile = function(event){
-    var image = document.getElementById("output");
-    image.src = URL.createObjectURL(event.target.files[0]);
-};
+
 
