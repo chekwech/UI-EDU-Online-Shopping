@@ -5,6 +5,9 @@ if (document.readyState == 'loading') {
 } else {
     ready()
 }
+function search(string) {
+    window.find(string);
+}
 
 var prevScrollpos = window.pageYOffset;
 window.onscroll = function() {
@@ -16,9 +19,8 @@ var currentScrollPos = window.pageYOffset;
   }
   prevScrollpos = currentScrollPos;
 }
-function search(string) {
-    window.find(string);
-}
+
+
 
 function ready() {
     var removeCartItemButtons = document.getElementsByClassName('btn-danger')

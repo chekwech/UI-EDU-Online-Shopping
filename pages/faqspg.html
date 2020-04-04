@@ -1,26 +1,26 @@
 <!DOCTYPE html>
 <html lang="en">
 
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Online shopping website">
-    <meta name="author" content="Emma, Mirriam, Pauline">
-    <meta name="keywords" content="html, css, javascript">
-    <title>FAQs</title>
-    <link rel="stylesheet" type="text/css" href="../styles/style.css" />
-    <script type="text/javascript" src="../script/app.js"></script>
-    <link href="https://fonts.googleapis.com/css?family=Lobster" rel="stylesheet" type="text/css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <a href="#" id="back-to-top" class="back-to-top" style="display: inline;">Top</a>
-</head>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="description" content="Online shopping website">
+        <meta name="author" content="Emma, Mirriam, Pauline">
+        <meta name="keywords" content="html, css, javascript">
+        <title>FAQs</title>
+        <link rel="stylesheet" type="text/css" href="../styles/style.css" />
+        <script type="text/javascript" src="../script/app.js"></script>
+        <link href="https://fonts.googleapis.com/css?family=Lobster" rel="stylesheet" type="text/css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <a href="#" id="back-to-top" class="back-to-top" style="display: inline;">Top</a>
+    </head>
 
-<!--<body id="body3">-->
+    <!--<body id="body3">-->
 
-<body id="body2">
-    <a href="#" id="scroll" style="display: none;"><span></span></a>
-    <div id="container">
-        <main>
+    <body id="body2">
+        <a href="#" id="scroll" style="display: none;"><span></span></a>
+        <div id="container">
+        
             <header class="main-header">
                 <div class="navItems">
                     <nav class="navLinks">
@@ -56,12 +56,12 @@
                     </nav>
                     <div class="searchName">
                         <div class="logoName">
-                            <img src="../images/logo.png" class="logo1">
-                            <h1 class="bizName"><br>The Pirema Shoppers</h1>
+                            <!-- <img src="../images/logo.png" class="logo1">
+                            <h1 class="bizName"><br>The Pirema Shoppers</h1> -->
                         </div>
                         <div class="search-box">
-                            <input type="text" placeholder="Search...." class="form-control">
-                            <button type="submit" class="input-group-text"><i class="fa fa-search"></i></button>
+                            <input type="text" placeholder="Search...." class="form-control" id="search">
+                            <button type="submit" class="input-group-text" value="Search" onclick="search(document.getElementById('search').value)"><i class="fa fa-search"></i></button>
                         </div>
                     </div>
                 </div>
@@ -70,70 +70,63 @@
             <!-- <div id= "search bar"> 
              <input type="text" placeholder="Search..">
            </div> -->
-            <h1>PIREMA FAQs</h1>
-            <h2>
-                THE PRODUCTS AND THEIR PRICING
-            </h2>
-            <h3> How can I use Pirema Shopping Hearts for my shopping?</h3>
-            <p>
-                Pirema is an online shopping store with over 600,000,000 products from millions of both local and international renowned stores. More than a merchandise store, Pirema ushers you to a new world of genuine local and international businesses selling the
-                brand name Products you are searching for, at quality and affordable prices. To have easy and affordable online shopping experience, Pirema is your one and only site. through browsing our website, you will be ushered into a world of the
-                latest trending, popular and new brand Products. Pirema also rates Products you might be interested in, for quality assurance.
-            </p>
-
-            <h3>How can I do shopping online with Pirema?</h3>
-            <p>
-                Please follow the following very simples steps,
-
-                <li>Visit our website www.piremashoppinghearts.com</li>
-                <li>On the page,input the keywords of the product you want in the search tab Scroll list to get preffered product using criteria such as brand name, category,price etc</li>
-                <li>After finding the product you want to purchase, please click on button "add to cart", this will add the product to a virtual shopping cart.
-                </li>
-                <li>You can always make changes to contents of your virtual shopping cart by clicking the buttons of "remove"(this removes items from cart), "edit cart"(allows you to make changes to cart),<br> then "continue shopping" (allows you to add more
-                    items to cart)
-                </li>
-                <li>When done with selection, you can click on the "checkout" button, at this point you will be asked to provide information necessary to process your order and deliver it to your door step
-                </li>
-            </p>
-            <h3>What if I get the product cheaper elsewhere?</h3>
-            <p>
-                We guarantee the cheapest products right?Our greatest mandate is to give our customers the best deals from our trusted retailers. We will guarantee you quality brands at affordable prices and world class online shopping experience. Furthermore, Pirema
-                Shopping Hearts will refund any overpay for a product priced differently from only our trusted retailers, the difference will automatically be refunded into your Pirema virtual wallet.
-            </p>
-
-            <h2>PAYMENTS</h2>
-            <h3>How do I pay for my order?</h3>
-            <p>
-                Our payment procedure is as simple as can be. Pirema Shopping Hearts, transactions can be made using both local and international payment methods including all major credit and debit cards, cheques, mobile money, bank transfers, cash and whatever way
-                is user-friendly for our customers. Please note all payments are charged in Uganda shillings (UGX). The final amount reflected on your bill may differ depending on the exchange rate at the time your bank processes the transaction.
-            </p>
-
-            <h3>What is Pirema Shopping Hearts policy on customs, duties & taxes?</h3>
-
-            <p>
-                For all your shipment fees, for international shipments by Pirema Shopping Hearts are subject to taxes, customs, and other duties that are payable at check out.
+            <main>
+                <h1>PIREMA FAQs</h1>
+                <h2>
+                    THE PRODUCTS AND THEIR PRICING
+                </h2>
+                <h3> How can I use Pirema Shopping Hearts for my shopping?</h3>
                 <p>
+                    Pirema is an online shopping store with over 600,000,000 products from millions of both local and international renowned stores. More than a merchandise store, Pirema ushers you to a new world of genuine local and international businesses selling the
+                    brand name Products you are searching for, at quality and affordable prices. To have easy and affordable online shopping experience, Pirema is your one and only site. through browsing our website, you will be ushered into a world of the
+                    latest trending, popular and new brand Products. Pirema also rates Products you might be interested in, for quality assurance.
+                </p>
 
-                    <h3>Is my personal information safe?</h3>
+                <h3>How can I do shopping online with Pirema?</h3>
+                <p>
+                    Please follow the following very simples steps,
 
-                    <p>All information that you share with us is private and confidential. At no point will we share, rent or sell your personal information without your consent except as required by law or to fulfill an order contract with you.
-                    </p>
+                    <li>Visit our website www.piremashoppinghearts.com</li>
+                    <li>On the page,input the keywords of the product you want in the search tab Scroll list to get preffered product using criteria such as brand name, category,price etc</li>
+                    <li>After finding the product you want to purchase, please click on button "add to cart", this will add the product to a virtual shopping cart.
+                    </li>
+                    <li>You can always make changes to contents of your virtual shopping cart by clicking the buttons of "remove"(this removes items from cart), "edit cart"(allows you to make changes to cart),<br> then "continue shopping" (allows you to add more
+                        items to cart)
+                    </li>
+                    <li>When done with selection, you can click on the "checkout" button, at this point you will be asked to provide information necessary to process your order and deliver it to your door step
+                    </li>
+                </p>
+                <h3>What if I get the product cheaper elsewhere?</h3>
+                <p>
+                    We guarantee the cheapest products right?Our greatest mandate is to give our customers the best deals from our trusted retailers. We will guarantee you quality brands at affordable prices and world class online shopping experience. Furthermore, Pirema
+                    Shopping Hearts will refund any overpay for a product priced differently from only our trusted retailers, the difference will automatically be refunded into your Pirema virtual wallet.
+                </p>
 
-        </main>
-        <footer>
-            <div id="footer3">
-                <div class="contactinfo">
-                    <p>Contact us:<a href="../index.html" target="_blank">contact us</a></p>
-                </div>
-                <div class="location">
-                    <p><strong>Find us at</strong><br>Outbox hub,<br>Soliz house, <br>Lumumba avenue</p>
-                </div>
-                <div class="copyright">
-                    <p>Pirema@2020. All rights reserved</p>
-                </div>
-            </div>
+                <h2>PAYMENTS</h2>
+                <h3>How do I pay for my order?</h3>
+                <p>
+                    Our payment procedure is as simple as can be. Pirema Shopping Hearts, transactions can be made using both local and international payment methods including all major credit and debit cards, cheques, mobile money, bank transfers, cash and whatever way
+                    is user-friendly for our customers. Please note all payments are charged in Uganda shillings (UGX). The final amount reflected on your bill may differ depending on the exchange rate at the time your bank processes the transaction.
+                </p>
+
+                <h3>What is Pirema Shopping Hearts policy on customs, duties & taxes?</h3>
+
+                <p>
+                    For all your shipment fees, for international shipments by Pirema Shopping Hearts are subject to taxes, customs, and other duties that are payable at check out.
+                    <p>
+
+                        <h3>Is my personal information safe?</h3>
+
+                        <p>All information that you share with us is private and confidential. At no point will we share, rent or sell your personal information without your consent except as required by law or to fulfill an order contract with you.
+                        </p>
+            
+            </main>
+            <footer id="footer3">
+                <p><strong>Find us at</strong><br>Outbox hub,Soliz house, Lumumba avenue</p>
+            
+                <p>&copy Pirema@2020. All rights reserved</p>
         </footer>
-    </div>
-</body>
+        
+    </body>
 
 </html>
