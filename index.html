@@ -1,272 +1,274 @@
 <!DOCTYPE html>
 <html>
 
-    <head>
-        <title>The Shoppers | Store</title>
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <meta name="description" content="This is the description">
-        <link rel="stylesheet" href="styles/style.css" />
-        <script src="script/app.js" async></script>
-        <link href="https://fonts.googleapis.com/css?family=Lobster" rel="stylesheet" type="text/css">
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-        <a href="#" id="back-to-top" class="back-to-top" style="display: inline;">Top</a>
-    </head>
+<head>
+    <title>The Shoppers | Store</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="This is the description">
+    <link rel="stylesheet" href="styles/style.css" />
+    <script src="script/app.js" async></script>
+    <link href="https://fonts.googleapis.com/css?family=Lobster" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <a href="#" id="back-to-top" class="back-to-top" style="display: inline;">Top</a>
+</head>
 
-    <body id="body2">
-        <a href="#" id="scroll" style="display: none;"><span></span></a>
-        <div id="container">
-            <header class="main-header">
-                <div class="navItems">
-                    <nav class="navLinks">
-                        <ul>
+<body id="body2">
+    <a href="#" id="scroll" style="display: none;"><span></span></a>
+    <div id="container">
+        <header class="main-header">
+            <div class="navItems">
+                <nav class="navLinks">
+                    <ul>
 
 
-                            <li><a href="index.html"><i class="fa fa-fw fa-home"></i>Home</a></li>
-                            <div class="dropdown">
-                                <li class="dropbtn" onclick="myFunction()">Categories
-                                    <i class="fa fa-caret-down"></i>
-                                    <div class="dropdown-content">
-                                        <a href="#electronics">Electronics</a>
-                                        <a href="#fashion">Fashion</a>
-                                        <a href="#foodstuffs">Food Stuffs</a>
-                                    </div>
-                            </div>
+                        <li><a href="index.html"><i class="fa fa-fw fa-home"></i>Home</a></li>
+                        <div class="dropdown">
+                            <li class="dropbtn" onclick="myFunction()">Categories
+                                <i class="fa fa-caret-down"></i>
+                                <div class="dropdown-content">
+                                    <a href="#electronics">Electronics</a>
+                                    <a href="#fashion">Fashion</a>
+                                    <a href="#foodstuffs">Food Stuffs</a>
+                                </div>
+                        </div>
+                        </li>
+                        <li><a href="pages/about.html">About us</a></li>
+                        <div class="dropdown">
+                            <li class="dropbtn" onclick="myFunction()"><i class="fa fa-fw fa-user"></i>Signin
+                                <i class="fa fa-caret-down"></i>
+                                <div class="dropdown-content">
+                                    <a href="pages/signin.html"></i> Signin</a>
+                                    Or
+                                    <a href="pages/register.html">Register</a>
+                                </div>
                             </li>
-                            <li><a href="pages/about.html">About us</a></li>
-                            <div class="dropdown">
-                                <li class="dropbtn" onclick="myFunction()"><i class="fa fa-fw fa-user"></i>Signin
-                                    <i class="fa fa-caret-down"></i>
-                                    <div class="dropdown-content">
-                                        <a href="pages/signin.html"></i> Signin</a>
-                                        Or
-                                        <a href="pages/register.html">Register</a>
-                                    </div>
-                                </li>
-                            </div>
-                            <li><a href="#carts"><i class="fa fa-shopping-basket"></i>Cart </a></li>
-                            <li><a href="pages/upload.html">Sell product</a></li>
-                            <li><a href="pages/faqspg.html">FAQs</a></li>
-                        </ul>
-                    </nav>
-                    <div class="searchName">
-                        <div class="logoName">
-                            <img src="images/logo.png" class="logo1">
-                            <h1 class="bizName">The Pirema Shoppers</h1>
                         </div>
-                        <div class="search-box">
-                            <input type="text" placeholder="Search...." class="form-control" id="search">
-                            <button type="submit" class="input-group-text" value="Search" onclick="search(document.getElementById('search').value)"><i class="fa fa-search"></i></button>
-                        </div>
+                        <li><a href="#carts"><i class="fa fa-shopping-basket"></i>Cart </a></li>
+                        <li><a href="pages/upload.html">Sell product</a></li>
+                        <li><a href="pages/faqspg.html">FAQs</a></li>
+                    </ul>
+                </nav>
+                <div class="searchName">
+                    <div class="logoName">
+                        <img src="images/logo.png" class="logo1">
+                        <h1 class="bizName">The Pirema Shoppers</h1>
+                    </div>
+                    <div class="search-box">
+                        <input type="text" placeholder="Search...." class="form-control" id="search">
+                        <button type="submit" class="input-group-text" value="Search" onclick="search(document.getElementById('search').value)"><i class="fa fa-search"></i></button>
                     </div>
                 </div>
-
-            </header>
-            <div class="container">
-                <p>Welcome to Pirema Shoppers, your one-stop center for all your shopping needs.<br>
-                    <p><b>Not only does it look good, it's good to your wallet too! Get a 10% discount when you buy our products or sell your products through US!</b></p>
-                    <p>
-                        <h1 style="font-size: x-larger; color: blue;">PRODUCTS</h1>
-                    </p>
-                </p>
             </div>
-            <section class="container content-section">
-                <h2 class="section-header"><a name="electronics">ELECTRONICS</a></h2>
-                <hr />
-                <div class="shop-items">
-                    <div class="shop-item">
-                        <span class="shop-item-title">HP Laptop</span>
-                        <img class="shop-item-image" src="images/laptop.png">
-                        <div class="shop-item-details">
-                            <span class="shop-item-price">$990.99</span>
-                            <button class="btn btn-primary shop-item-button" type="button">ADD TO CART</button>
-                        </div>
-                    </div>
-                    <div class="shop-item">
-                        <span class="shop-item-title">Sumsung s9</span>
-                        <img class="shop-item-image" src="images/phone.png">
-                        <div class="shop-item-details">
-                            <span class="shop-item-price">$350.09</span>
-                            <button class="btn btn-primary shop-item-button" type="button">ADD TO CART</button>
-                        </div>
-                    </div>
-                    <div class="shop-item">
-                        <span class="shop-item-title">LG TV</span>
-                        <img class="shop-item-image" src="images/tv.png">
-                        <div class="shop-item-details">
-                            <span class="shop-item-price">$590.00</span>
-                            <button class="btn btn-primary shop-item-button" type="button">ADD TO CART</button>
-                        </div>
-                    </div>
-                    <div class="shop-item">
-                        <span class="shop-item-title">80's Radio</span>
-                        <img class="shop-item-image" src="images/radio.png">
-                        <div class="shop-item-details">
-                            <span class="shop-item-price">$109.99</span>
-                            <button class="btn btn-primary shop-item-button" type="button">ADD TO CART</button>
-                        </div>
-                    </div>
-                </div>
-            </section>
-            <section class="container content-section">
-                <h2 class="section-header">KITCHEN</h2>
-                <div class="shop-items">
-                    <div class="shop-item">
-                        <span class="shop-item-title">LG Fridge</span>
-                        <img class="shop-item-image" src="images/fridge.png">
-                        <div class="shop-item-details">
-                            <span class="shop-item-price">$290.80</span>
-                            <button class="btn btn-primary shop-item-button" type="button">ADD TO CART</button>
-                        </div>
-                    </div>
-                    <div class="shop-item">
-                        <span class="shop-item-title">LG Microwave</span>
-                        <img class="shop-item-image" src="images/microwave.png">
-                        <div class="shop-item-details">
-                            <span class="shop-item-price">$160.12</span>
-                            <button class="btn btn-primary shop-item-button" type="button">ADD TO CART</button>
-                        </div>
-                    </div>
-                </div>
-            </section>
-            <section class="container content-section">
-                <h2 class="section-header">
-                    <a name="fashion">FASHION</a>
-                </h2>
-                <hr />
-                <div class="shop-items">
-                    <div class="shop-item">
-                        <span class="shop-item-title">Suits</span>
-                        <img class="shop-item-image" src="images/suit.png">
-                        <div class="shop-item-details">
-                            <span class="shop-item-price">$102.0</span>
-                            <button class="btn btn-primary shop-item-button" type="button">ADD TO CART</button>
-                        </div>
-                    </div>
-                    <div class="shop-item">
-                        <span class="shop-item-title">Dress</span>
-                        <img class="shop-item-image" src="images/dress.png">
-                        <div class="shop-item-details">
-                            <span class="shop-item-price">$14.23</span>
-                            <button class="btn btn-primary shop-item-button" type="button">ADD TO CART</button>
-                        </div>
-                    </div>
-                    <div class="shop-item">
-                        <span class="shop-item-title">Jacket</span>
-                        <img class="shop-item-image" src="images/jacket.png">
-                        <div class="shop-item-details">
-                            <span class="shop-item-price">$29.99</span>
-                            <button class="btn btn-primary shop-item-button" type="button">ADD TO CART</button>
-                        </div>
-                    </div>
-                    <div class="shop-item">
-                        <span class="shop-item-title">Skirt</span>
-                        <img class="shop-item-image" src="images/skirt.png">
-                        <div class="shop-item-details">
-                            <span class="shop-item-price">$19.99</span>
-                            <button class="btn btn-primary shop-item-button" type="button">ADD TO CART</button>
-                        </div>
-                    </div>
-                </div>
-            </section>
-            <section class="container content-section">
-                <h2 class="section-header">WEAR</h2>
-                <div class="shop-items">
-                    <div class="shop-item">
-                        <span class="shop-item-title">Men's Soes</span>
-                        <img class="shop-item-image" src="images/mshoes.png">
-                        <div class="shop-item-details">
-                            <span class="shop-item-price">$39.99</span>
-                            <button class="btn btn-primary shop-item-button" type="button">ADD TO CART</button>
-                        </div>
-                    </div>
-                    <div class="shop-item">
-                        <span class="shop-item-title">Ladies' Shoes</span>
-                        <img class="shop-item-image" src="images/lshoes.png">
-                        <div class="shop-item-details">
-                            <span class="shop-item-price">$26.99</span>
-                            <button class="btn btn-primary shop-item-button" type="button">ADD TO CART</button>
-                        </div>
-                    </div>
-                </div>
-            </section>
-            <section class="container content-section">
-                <h2 class="section-header"><a name="foodstuffs">FOOD STUFFS</a></h2>
-                <hr />
-                <div class="shop-items">
-                    <div class="shop-item">
-                        <span class="shop-item-title">Matooke</span>
-                        <img class="shop-item-image" src="images/matooke.png">
-                        <div class="shop-item-details">
-                            <span class="shop-item-price">$12.67</span>
-                            <button class="btn btn-primary shop-item-button" type="button">ADD TO CART</button>
-                        </div>
-                    </div>
-                    <div class="shop-item">
-                        <span class="shop-item-title">Rice</span>
-                        <img class="shop-item-image" src="images/rice.png">
-                        <div class="shop-item-details">
-                            <span class="shop-item-price">$4.97</span>
-                            <button class="btn btn-primary shop-item-button" type="button">ADD TO CART</button>
-                        </div>
-                    </div>
-                    <div class="shop-item">
-                        <span class="shop-item-title">Chicken</span>
-                        <img class="shop-item-image" src="images/chicken.png">
-                        <div class="shop-item-details">
-                            <span class="shop-item-price">$9.99</span>
-                            <button class="btn btn-primary shop-item-button" type="button">ADD TO CART</button>
-                        </div>
-                    </div>
-                    <div class="shop-item">
-                        <span class="shop-item-title">Beans</span>
-                        <img class="shop-item-image" src="images/beans.png">
-                        <div class="shop-item-details">
-                            <span class="shop-item-price">$2.09</span>
-                            <button class="btn btn-primary shop-item-button" type="button">ADD TO CART</button>
-                        </div>
-                    </div>
-                    <div class="shop-item">
-                        <span class="shop-item-title">Irish</span>
-                        <img class="shop-item-image" src="images/irish.png">
-                        <div class="shop-item-details">
-                            <span class="shop-item-price">$1.99</span>
-                            <button class="btn btn-primary shop-item-button" type="button">ADD TO CART</button>
-                        </div>
-                    </div>
-                    <div class="shop-item">
-                        <span class="shop-item-title">Fruits</span>
-                        <img class="shop-item-image" src="images/fruits.png">
-                        <div class="shop-item-details">
-                            <span class="shop-item-price">$6.99</span>
-                            <button class="btn btn-primary shop-item-button" type="button">ADD TO CART</button>
-                        </div>
-                    </div>
-                </div>
-            </section>
-            <section class="container content-section">
-                <h2 class="section-header"><a name="carts">CART</a></h2>
-                <div class="cart-row">
-                    <span class="cart-item cart-header cart-column">ITEM</span>
-                    <span class="cart-price cart-header cart-column">PRICE</span>
-                    <span class="cart-quantity cart-header cart-column">QUANTITY</span>
-                </div>
-                <div class="cart-items">
-                </div>
-                <div class="cart-total">
-                    <strong class="cart-total-title">Total</strong>
-                    <span class="cart-total-price">$0</span>
-                </div>
-                <button class="btn btn-primary btn-purchase" type="button">PURCHASE</button>
-            </section>
-            
-            <footer id="footer3">
-                
-                <p><strong>Find us at</strong><br>Outbox hub,Soliz house, Lumumba avenue</p>
-            
-                <p>&copy Pirema@2020. All rights reserved</p>
-            </footer>
-        </div>    
 
-    </body>
+        </header>
+        <div class="container">
+            <div>
+                <p>Welcome to Pirema Shoppers, your one-stop center for all your shopping needs.<br>
+                    <p>Not only does it look good, it's good to your wallet too! Get a 10% discount when you buy our products or sell your products through US!</p>
+            </div>
+            <p>
+                <h1 style="font-size: 36px; color: black; text-align: center;"><br>PRODUCTS</h1>
+            </p>
+            </p>
+        </div>
+        <section class="container content-section">
+            <h2 class="section-header"><a name="electronics">ELECTRONICS</a></h2>
+            <hr />
+            <div class="shop-items">
+                <div class="shop-item">
+                    <span class="shop-item-title">HP Laptop</span>
+                    <img class="shop-item-image" src="images/laptop.png">
+                    <div class="shop-item-details">
+                        <span class="shop-item-price">$990.99</span>
+                        <button class="btn btn-primary shop-item-button" type="button">ADD TO CART</button>
+                    </div>
+                </div>
+                <div class="shop-item">
+                    <span class="shop-item-title">Sumsung s9</span>
+                    <img class="shop-item-image" src="images/phone.png">
+                    <div class="shop-item-details">
+                        <span class="shop-item-price">$350.09</span>
+                        <button class="btn btn-primary shop-item-button" type="button">ADD TO CART</button>
+                    </div>
+                </div>
+                <div class="shop-item">
+                    <span class="shop-item-title">LG TV</span>
+                    <img class="shop-item-image" src="images/tv.png">
+                    <div class="shop-item-details">
+                        <span class="shop-item-price">$590.00</span>
+                        <button class="btn btn-primary shop-item-button" type="button">ADD TO CART</button>
+                    </div>
+                </div>
+                <div class="shop-item">
+                    <span class="shop-item-title">80's Radio</span>
+                    <img class="shop-item-image" src="images/radio.png">
+                    <div class="shop-item-details">
+                        <span class="shop-item-price">$109.99</span>
+                        <button class="btn btn-primary shop-item-button" type="button">ADD TO CART</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="container content-section">
+            <h2 class="section-header">KITCHEN</h2>
+            <div class="shop-items">
+                <div class="shop-item">
+                    <span class="shop-item-title">LG Fridge</span>
+                    <img class="shop-item-image" src="images/fridge.png">
+                    <div class="shop-item-details">
+                        <span class="shop-item-price">$290.80</span>
+                        <button class="btn btn-primary shop-item-button" type="button">ADD TO CART</button>
+                    </div>
+                </div>
+                <div class="shop-item">
+                    <span class="shop-item-title">LG Microwave</span>
+                    <img class="shop-item-image" src="images/microwave.png">
+                    <div class="shop-item-details">
+                        <span class="shop-item-price">$160.12</span>
+                        <button class="btn btn-primary shop-item-button" type="button">ADD TO CART</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="container content-section">
+            <h2 class="section-header">
+                <a name="fashion">FASHION</a>
+            </h2>
+            <hr />
+            <div class="shop-items">
+                <div class="shop-item">
+                    <span class="shop-item-title">Suits</span>
+                    <img class="shop-item-image" src="images/suit.png">
+                    <div class="shop-item-details">
+                        <span class="shop-item-price">$102.0</span>
+                        <button class="btn btn-primary shop-item-button" type="button">ADD TO CART</button>
+                    </div>
+                </div>
+                <div class="shop-item">
+                    <span class="shop-item-title">Dress</span>
+                    <img class="shop-item-image" src="images/dress.png">
+                    <div class="shop-item-details">
+                        <span class="shop-item-price">$14.23</span>
+                        <button class="btn btn-primary shop-item-button" type="button">ADD TO CART</button>
+                    </div>
+                </div>
+                <div class="shop-item">
+                    <span class="shop-item-title">Jacket</span>
+                    <img class="shop-item-image" src="images/jacket.png">
+                    <div class="shop-item-details">
+                        <span class="shop-item-price">$29.99</span>
+                        <button class="btn btn-primary shop-item-button" type="button">ADD TO CART</button>
+                    </div>
+                </div>
+                <div class="shop-item">
+                    <span class="shop-item-title">Skirt</span>
+                    <img class="shop-item-image" src="images/skirt.png">
+                    <div class="shop-item-details">
+                        <span class="shop-item-price">$19.99</span>
+                        <button class="btn btn-primary shop-item-button" type="button">ADD TO CART</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="container content-section">
+            <h2 class="section-header">WEAR</h2>
+            <div class="shop-items">
+                <div class="shop-item">
+                    <span class="shop-item-title">Men's Soes</span>
+                    <img class="shop-item-image" src="images/mshoes.png">
+                    <div class="shop-item-details">
+                        <span class="shop-item-price">$39.99</span>
+                        <button class="btn btn-primary shop-item-button" type="button">ADD TO CART</button>
+                    </div>
+                </div>
+                <div class="shop-item">
+                    <span class="shop-item-title">Ladies' Shoes</span>
+                    <img class="shop-item-image" src="images/lshoes.png">
+                    <div class="shop-item-details">
+                        <span class="shop-item-price">$26.99</span>
+                        <button class="btn btn-primary shop-item-button" type="button">ADD TO CART</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="container content-section">
+            <h2 class="section-header"><a name="foodstuffs">FOOD STUFFS</a></h2>
+            <hr />
+            <div class="shop-items">
+                <div class="shop-item">
+                    <span class="shop-item-title">Matooke</span>
+                    <img class="shop-item-image" src="images/matooke.png">
+                    <div class="shop-item-details">
+                        <span class="shop-item-price">$12.67</span>
+                        <button class="btn btn-primary shop-item-button" type="button">ADD TO CART</button>
+                    </div>
+                </div>
+                <div class="shop-item">
+                    <span class="shop-item-title">Rice</span>
+                    <img class="shop-item-image" src="images/rice.png">
+                    <div class="shop-item-details">
+                        <span class="shop-item-price">$4.97</span>
+                        <button class="btn btn-primary shop-item-button" type="button">ADD TO CART</button>
+                    </div>
+                </div>
+                <div class="shop-item">
+                    <span class="shop-item-title">Chicken</span>
+                    <img class="shop-item-image" src="images/chicken.png">
+                    <div class="shop-item-details">
+                        <span class="shop-item-price">$9.99</span>
+                        <button class="btn btn-primary shop-item-button" type="button">ADD TO CART</button>
+                    </div>
+                </div>
+                <div class="shop-item">
+                    <span class="shop-item-title">Beans</span>
+                    <img class="shop-item-image" src="images/beans.png">
+                    <div class="shop-item-details">
+                        <span class="shop-item-price">$2.09</span>
+                        <button class="btn btn-primary shop-item-button" type="button">ADD TO CART</button>
+                    </div>
+                </div>
+                <div class="shop-item">
+                    <span class="shop-item-title">Irish</span>
+                    <img class="shop-item-image" src="images/irish.png">
+                    <div class="shop-item-details">
+                        <span class="shop-item-price">$1.99</span>
+                        <button class="btn btn-primary shop-item-button" type="button">ADD TO CART</button>
+                    </div>
+                </div>
+                <div class="shop-item">
+                    <span class="shop-item-title">Fruits</span>
+                    <img class="shop-item-image" src="images/fruits.png">
+                    <div class="shop-item-details">
+                        <span class="shop-item-price">$6.99</span>
+                        <button class="btn btn-primary shop-item-button" type="button">ADD TO CART</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="container content-section">
+            <h2 class="section-header"><a name="carts">CART</a></h2>
+            <div class="cart-row">
+                <span class="cart-item cart-header cart-column">ITEM</span>
+                <span class="cart-price cart-header cart-column">PRICE</span>
+                <span class="cart-quantity cart-header cart-column">QUANTITY</span>
+            </div>
+            <div class="cart-items">
+            </div>
+            <div class="cart-total">
+                <strong class="cart-total-title">Total</strong>
+                <span class="cart-total-price">$0</span>
+            </div>
+            <button class="btn btn-primary btn-purchase" type="button">PURCHASE</button>
+        </section>
+
+        <footer id="footer3">
+
+            <p><strong>Find us at</strong><br>Outbox hub,Soliz house, Lumumba avenue</p>
+
+            <p>&copy Pirema@2020. All rights reserved</p>
+        </footer>
+    </div>
+
+</body>
 
 </html>
