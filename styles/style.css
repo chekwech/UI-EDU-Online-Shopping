@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css?family=Raleway:300,400,700');
 @import url("https://fonts.googleapis.com/css?family=Metal+Mania");
 @font-face {
-    font-family: "Lobster", "Booter - Zero Zero";
+    font-family: 'Lobster', "Booter - Zero Zero";
     src: url("Fonts/Booter - Zero Zero.woff") format("woff"), url("Fonts/Booter - Zero Zero.woff2") format("woff2");
     font-weight: normal;
     font-style: normal;
@@ -9,7 +9,7 @@
 
 * {
     box-sizing: border-box;
-    /*font-family: "Lobster", Raleway;*/
+    /* font-family: 'Lobster', Raleway; */
 }
 
 html,
@@ -108,7 +108,7 @@ img.logo1 {
 }
 
 .form-control {
-    margin-top: 9px;
+    margin-top: 0px;
     margin: 30px;
     border: 1px solid orchid !important;
     border-radius: 20px !important;
@@ -116,7 +116,7 @@ img.logo1 {
 }
 
 .input-group-text {
-    background: indigo;
+    background: orange;
     border: 1px solid floralwhite!important;
     border-radius: 20px !important;
     box-shadow: none !important;
@@ -158,9 +158,9 @@ img.logo1 {
 .bizName {
     text-align: left;
     font-size: 5em;
-    font-family: "Lobster", Raleway;
+    font-family: 'Lobster', Raleway;
     font-weight: normal;
-    color: white;
+    color: orange;
     margin-top: 5px;
     margin-left: 10px;
     display: inline-block;
@@ -181,7 +181,9 @@ img.logo1 {
 }
 
 h1 {
+    font-family: 'Lobster';
     font-size: 2em;
+    color: orange;
 }
 
 .content-section {
@@ -196,6 +198,7 @@ h1 {
     /* margin: 100px;*/
     padding: 0 1.5em;
     margin-top: 100px;
+    color: indigo;
 }
 
 .statement {
@@ -203,9 +206,9 @@ h1 {
 }
 
 .section-header {
-    font-family: "Lobster", Raleway, "Metal Mania";
+    font-family: 'Lobster', Raleway, "Metal Mania";
     font-weight: normal;
-    color: #333;
+    color: indigo;
     text-align: center;
     font-size: 2.0em;
 }
@@ -278,7 +281,7 @@ h1 {
     text-align: center;
     font-weight: bold;
     font-size: 1.5em;
-    color: blue;
+    color: indigo;
     margin-bottom: 15px;
     margin-top: 25px;
 }
@@ -298,7 +301,7 @@ h1 {
 
 .shop-item-price {
     flex-grow: 1;
-    color: #333;
+    color: indigo;
     font-size: 22px;
 }
 
@@ -329,20 +332,22 @@ h1 {
 
 .cart-item {
     width: 45%;
+    color: indigo;
 }
 
 .cart-price {
     width: 20%;
     font-size: 1.2em;
-    color: #333;
+    color: indigo;
 }
 
 .cart-quantity {
     width: 35%;
+    color: indigo;
 }
 
 .cart-item-title {
-    color: #333;
+    color: indigo;
     margin-left: .5em;
     font-size: 1.2em;
 }
@@ -371,7 +376,7 @@ h1 {
     border-radius: 5px;
     border: 1px solid #56CCF2;
     background-color: #eee;
-    color: #333;
+    color: indigo;
     padding: 0;
     text-align: center;
     font-size: 1.2em;
@@ -400,7 +405,7 @@ h1 {
 }
 
 .cart-total-price {
-    color: #333;
+    color: indigo;
     font-size: 1.1em;
 }
 
@@ -483,7 +488,7 @@ a.back-to-top {
     opacity: 1;
 }
 
-#footer3 {
+.footer3 {
     background-color: indigo;
     color: #FFFFFF;
     text-align: center;
@@ -500,12 +505,14 @@ a.back-to-top {
 
 p {
     align-content: center;
-    font-family: 'Lobster', Raleway;
+    font-family: Raleway, 'Lobster';
     font-size: 25px;
+    margin-bottom: 5px;
 }
 
 form {
     font-size: 20px;
+    color: indigo;
     border: 3px solid indigo;
     margin: 0 auto;
     width: 400px;
@@ -520,7 +527,7 @@ form {
 .container2 {
     position: center;
     right: 0;
-    margin-top: 60px;
+    margin-top: 20px;
     max-width: 300px;
     padding: 16px;
     background-color: floralwhite;
@@ -535,6 +542,8 @@ input[type=password],
 select {
     width: 100%;
     padding: 12px 20px;
+    font-size: 1em;
+    color: indigo;
     margin: 8px 0;
     border: 1px solid #ccc;
     box-sizing: border-box;
@@ -543,7 +552,9 @@ select {
 
 input[type=text]:focus,
 input[type=password]:focus {
-    background-color: #ddd;
+    background-color: floralwhite;
+    font-size: 1em;
+    color: indigo;
     outline: none;
 }
 
@@ -551,10 +562,10 @@ input[type=password]:focus {
 /* Set a style for the submit button */
 
 
-/* .btn {
-    background-color: green;
+.btn {
+    background-color: orange;
     color: floralwhite;
-    /*padding: 14px 20px;
+    padding: 14px 20px;
     margin: 8px 0;
     border: none;
     cursor: pointer;
@@ -564,7 +575,7 @@ input[type=password]:focus {
     border-radius: 12px;
     font-family: 'Lobster', cursive;
     font-size: 19px;
-} */
+}
 
 .btn:hover {
     opacity: 1;
@@ -573,7 +584,7 @@ input[type=password]:focus {
 }
 
 .registerbtn {
-    background-color: green;
+    background-color: orange;
     border: none;
     color: floralwhite;
     padding: 15px 32px;
@@ -603,14 +614,25 @@ img.logo {
     border-radius: 50%;
     border: 3px solid indigo;
     float: center;
-    height: 100px;
-    margin-top: 90px;
-    margin-bottom: -50px;
+    height: 110px;
+    margin-top: 0px;
+    margin-bottom: -15px;
 }
 
 h3 {
-    margin-top: 110px;
+    margin-top: 10px;
     margin-bottom: 0px;
+}
+h2{
+    font-size: 1.7em;
+    color: #FF8C00;
+}
+.faqs{
+    color: indigo;
+    font-size: 1.5em;
+}
+ul.faqss{
+    list-style-type: square;
 }
 
 span.psw {
@@ -637,7 +659,7 @@ hr {
 }
 
 .cancelbtn {
-    background-color: green;
+    background-color: orange;
     border: none;
     color: floralwhite;
     padding: 15px 32px;
@@ -673,18 +695,18 @@ hr {
 }
 
 #file:hover {
-    background-color: green;
+    background-color: orange;
     color: indigo;
 }
 
 #custom-text {
     margin-left: 10px;
     font-family: 'Lobster';
-    color: green;
+    color: indigo;
 }
 
 .postbtn {
-    background-color: green;
+    background-color: orange;
     border: none;
     color: floralwhite;
     padding: 15px 32px;
@@ -708,4 +730,7 @@ hr {
 .postbtn a {
     color: floralwhite;
     text-decoration: none;
+}
+.formdata{
+    color: indigo;
 }
