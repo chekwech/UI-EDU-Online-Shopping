@@ -20,9 +20,11 @@ Quick start options available:
 
 
 **Documentation for previous releases**
+
 You can find all previous releases on https://github.com/mirriam-akongo/UI-EDU-Online-Shopping
 
 **Deployment**
+
 Deploy this project by openning this https://github.com/mirriam-akongo/UI-EDU-Online-Shopping on netlify.
 
 **Built with**
