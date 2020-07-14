@@ -1,6 +1,8 @@
 # UI-EDU-Online-Shopping
 [![Maintainability](https://api.codeclimate.com/v1/badges/40431a76a9cf7add0026/maintainability)](https://codeclimate.com/github/mirriam-akongo/UI-EDU-Online-Shopping/maintainability)
 
+[![Test Coverage](https://api.codeclimate.com/v1/badges/40431a76a9cf7add0026/test_coverage)](https://codeclimate.com/github/mirriam-akongo/UI-EDU-Online-Shopping/test_coverage)
+
 EDU-Online Shopping directory for the capstone project. EDU-Online shopping is an online platform where people can buy and sell different items and goods.
  <https://github.com/mirriam-akongo/UI-EDU-Online-Shopping>
  
